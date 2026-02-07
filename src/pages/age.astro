@@ -1,0 +1,20 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import AgeCalc from '../components/tools/AgeCalc';
+const faq = [
+  { q: "How is age calculated exactly?", a: "Age is calculated by finding the difference between the birth date and the target date, accounting for varying month lengths and leap years. The result shows exact years, months, and days." },
+  { q: "Can I calculate age on a future date?", a: "Yes. Change the 'Calculate Age On' field to any future date to see how old you'll be on that specific day." },
+  { q: "How many days have I been alive?", a: "The calculator shows your total days lived. Multiply that by 24 for hours, or by 1,440 for minutes." },
+];
+---
+<ToolLayout title="Age Calculator" description="Calculate your exact age in years, months, and days. Also shows total days lived and countdown to next birthday." slug="age" faq={faq}>
+  <AgeCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Age Calculator</h2>
+    <p>Enter your date of birth and optionally change the target date. The calculator shows your precise age in years, months, and days, along with total days lived and a countdown to your next birthday.</p>
+    <h2>What This Calculator Shows</h2>
+    <p>Beyond the standard years-months-days breakdown, this tool displays the total number of days you've been alive and how many days remain until your next birthday. It accounts for leap years and varying month lengths to give you precise results.</p>
+    <h2>Fun Age Facts</h2>
+    <p>On your 10,000th day alive, you're about 27 years and 5 months old. Your 1 billionth second of life occurs at roughly age 31 years and 8 months. These milestones make fun alternative celebrations beyond traditional birthdays.</p>
+  </Fragment>
+</ToolLayout>

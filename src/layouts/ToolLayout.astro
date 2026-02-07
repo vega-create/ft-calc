@@ -1,0 +1,151 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import { tools } from '../data/tools';
+
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+  faq?: { q: string; a: string }[];
+}
+
+const { title, description, slug, faq } = Astro.props;
+
+// Get related tools (same category, exclude self)
+const currentTool = tools.find(t => t.slug === slug);
+const relatedTools = currentTool
+  ? tools.filter(t => t.category === currentTool.category && t.slug !== slug).slice(0, 4)
+  : [];
+const otherTools = tools.filter(t => t.category !== currentTool?.category).slice(0, 4);
+---
+
+<BaseLayout>
+  <SEO slot="head" title={title} description={description} />
+
+  {/* FAQ Schema */}
+  {faq && faq.length > 0 && (
+    <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faq.map(item => ({
+        "@type": "Question",
+        "name": item.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.a
+        }
+      }))
+    })} />
+  )}
+
+  {/* WebApplication Schema */}
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": title,
+    "description": description,
+    "url": `https://calc.freetoolkit.cc/${slug}/`,
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  })} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    {/* Breadcrumb */}
+    <nav class="text-sm text-gray-400 mb-6">
+      <a href="/" class="hover:text-primary-600 transition-colors">Home</a>
+      <span class="mx-2">›</span>
+      <span class="text-gray-600">{title}</span>
+    </nav>
+
+    {/* Title */}
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">{title}</h1>
+    <p class="text-lg text-gray-500 mb-8">{description}</p>
+
+    {/* Ad: Top */}
+    <AdSense slot="top" />
+
+    {/* Tool Component */}
+    <div class="calc-card mb-8">
+      <slot name="tool" />
+    </div>
+
+    {/* Ad: After Tool */}
+    <AdSense slot="after-tool" />
+
+    {/* Tutorial Content */}
+    <div class="prose prose-lg max-w-none mb-12">
+      <slot name="tutorial" />
+    </div>
+
+    {/* Ad: Mid */}
+    <AdSense slot="mid" />
+
+    {/* FAQ Section */}
+    {faq && faq.length > 0 && (
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">❓ Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          {faq.map(item => (
+            <details class="group bg-white rounded-xl border border-gray-100 shadow-sm">
+              <summary class="flex items-center justify-between p-5 cursor-pointer font-medium text-gray-900 hover:text-primary-600 transition-colors">
+                {item.q}
+                <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div class="px-5 pb-5 text-gray-600 leading-relaxed">{item.a}</div>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Ad: Bottom */}
+    <AdSense slot="bottom" />
+
+    {/* Related Tools */}
+    {relatedTools.length > 0 && (
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Related Calculators</h2>
+        <div class="grid sm:grid-cols-2 gap-4">
+          {relatedTools.map(tool => (
+            <a href={`/${tool.slug}/`} class="calc-card flex items-center gap-4 group">
+              <div class="w-12 h-12 bg-primary-50 rounded-xl flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-primary-100 transition-colors">
+                {tool.icon}
+              </div>
+              <div>
+                <h3 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{tool.name}</h3>
+                <p class="text-sm text-gray-500">{tool.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Other Tools */}
+    <section>
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">More Tools</h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        {otherTools.map(tool => (
+          <a href={`/${tool.slug}/`} class="calc-card flex items-center gap-4 group">
+            <div class="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-primary-50 transition-colors">
+              {tool.icon}
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{tool.name}</h3>
+              <p class="text-sm text-gray-500">{tool.description}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

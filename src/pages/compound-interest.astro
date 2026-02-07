@@ -1,0 +1,21 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import CompoundInterestCalc from '../components/tools/CompoundInterestCalc';
+const faq = [
+  { q: "What is compound interest?", a: "Compound interest is interest earned on both your initial deposit and previously earned interest. Unlike simple interest (calculated only on principal), compound interest accelerates growth over time." },
+  { q: "How often should interest compound?", a: "More frequent compounding (daily vs. annually) produces slightly higher returns. Most savings accounts compound daily, while many investments compound monthly or quarterly." },
+  { q: "What is the Rule of 72?", a: "The Rule of 72 is a quick way to estimate how long it takes to double your money. Divide 72 by your annual interest rate. At 7% annual return, your money doubles in approximately 10.3 years." },
+  { q: "Does compound interest really make a big difference?", a: "Yes. $10,000 invested at 7% for 30 years grows to about $76,000 with compound interest, compared to only $31,000 with simple interest. That's the power of compounding." },
+];
+---
+<ToolLayout title="Compound Interest Calculator" description="See how your savings grow over time with compound interest. Add monthly contributions and choose compounding frequency." slug="compound-interest" faq={faq}>
+  <CompoundInterestCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Compound Interest Calculator</h2>
+    <p>Enter your initial investment, annual interest rate, and time period. Optionally add monthly contributions and select your compounding frequency. The calculator shows your future balance, total interest earned, and a visual breakdown of contributions versus earnings.</p>
+    <h2>Understanding the Results</h2>
+    <p>The green bar in the results shows what portion of your final balance came from interest earnings versus your actual contributions. The larger the green section, the more compound interest worked in your favor. This visual clearly demonstrates why starting early and investing consistently is so powerful.</p>
+    <h2>Compound Interest Formula</h2>
+    <p>The formula is A = P(1 + r/n)^(nt), where A is the final amount, P is the principal, r is the annual rate, n is the compounding frequency, and t is years. For monthly contributions, an additional term accounts for the future value of an annuity.</p>
+  </Fragment>
+</ToolLayout>

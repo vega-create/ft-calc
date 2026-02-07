@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import GradeCalc from '../components/tools/GradeCalc';
+const faq = [
+  { q: "What if I need more than 100%?", a: "If the result exceeds 100%, your desired grade may not be achievable with the final exam alone. Consider speaking with your professor about extra credit." },
+  { q: "How much does the final usually count?", a: "Final exams typically account for 20-40% of the total grade. Check your syllabus for the exact weight." }
+];
+---
+<ToolLayout title="Grade Calculator" description="Find what score you need on your final exam to get your desired grade." slug="grade" faq={faq}>
+  <GradeCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Grade Calculator</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Find what score you need on your final exam to get your desired grade. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

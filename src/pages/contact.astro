@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+---
+<BaseLayout>
+  <SEO slot="head" title="Contact Us" description="Get in touch with FreeToolkit Calculator. Suggest new tools, report bugs, or ask questions." />
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Contact Us</h1>
+
+    <div class="prose prose-lg max-w-none mb-8">
+      <p>We'd love to hear from you! Whether you have a suggestion for a new calculator, found a bug, or have a question about how one of our tools works, don't hesitate to reach out.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
+        <div class="text-2xl mb-3">✉️</div>
+        <h3 class="font-semibold text-gray-900 mb-2">Email Us</h3>
+        <p class="text-gray-500 text-sm mb-3">For general inquiries, suggestions, or bug reports.</p>
+        <a href="mailto:contact@freetoolkit.cc" class="text-primary-600 font-medium hover:underline">contact@freetoolkit.cc</a>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
+        <div class="text-2xl mb-3">💡</div>
+        <h3 class="font-semibold text-gray-900 mb-2">Suggest a Tool</h3>
+        <p class="text-gray-500 text-sm mb-3">Have an idea for a calculator we should add? Let us know!</p>
+        <a href="mailto:contact@freetoolkit.cc?subject=Tool%20Suggestion" class="text-primary-600 font-medium hover:underline">Send a suggestion</a>
+      </div>
+    </div>
+
+    <div class="mt-8 bg-primary-50 rounded-2xl p-6 border border-primary-100">
+      <h3 class="font-semibold text-primary-900 mb-2">Response Time</h3>
+      <p class="text-primary-700 text-sm">We typically respond within 1-2 business days. For urgent issues, please include "Urgent" in your subject line.</p>
+    </div>
+  </div>
+</BaseLayout>

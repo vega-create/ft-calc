@@ -1,0 +1,18 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import DiscountCalc from '../components/tools/DiscountCalc';
+const faq = [
+  { q: "How do I calculate a discount?", a: "Multiply the original price by the discount percentage divided by 100, then subtract from the original price. For example: $80 with 25% off = $80 - ($80 × 0.25) = $60." },
+  { q: "How do I calculate the original price from a sale price?", a: "Divide the sale price by (1 minus the discount rate). For example, if something costs $60 after a 25% discount: $60 ÷ 0.75 = $80 original price." },
+  { q: "Can I stack multiple discounts?", a: "When stacking discounts, apply each one sequentially to the already-reduced price. Two 20% discounts don't equal 40% off—they equal 36% off (100 × 0.8 × 0.8 = 64, so 36% off)." },
+];
+---
+<ToolLayout title="Discount Calculator" description="Find the sale price after applying a discount. Quick preset buttons for common discount percentages." slug="discount" faq={faq}>
+  <DiscountCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Discount Calculator</h2>
+    <p>Enter the original price and discount percentage, then click Calculate. Use the quick preset buttons for common discount amounts like 10%, 20%, or 50% off. The result shows both how much you save and the final price you'll pay.</p>
+    <h2>Shopping Tips</h2>
+    <p>When comparing deals, always calculate the final price rather than just looking at the discount percentage. A 30% discount on a $100 item ($70 final) might be a worse deal than a 20% discount on an $80 item ($64 final) for the same product. This calculator makes these comparisons instant.</p>
+  </Fragment>
+</ToolLayout>

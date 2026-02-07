@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import CalorieCalc from '../components/tools/CalorieCalc';
+const faq = [
+  { q: "How many calories to lose weight?", a: "A safe deficit is 500-1000 calories below maintenance, resulting in 1-2 lbs/week loss. Never go below 1200 without medical supervision." },
+  { q: "What is BMR?", a: "Basal Metabolic Rate is the calories your body burns at complete rest for basic functions like breathing and circulation." }
+];
+---
+<ToolLayout title="Calorie Calculator" description="Estimate daily calorie needs based on age, weight, height, and activity level." slug="calorie" faq={faq}>
+  <CalorieCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Calorie Calculator</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Estimate daily calorie needs based on age, weight, height, and activity level. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

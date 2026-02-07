@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import UnitPriceCalc from '../components/tools/UnitPriceCalc';
+const faq = [
+  { q: "Is the cheapest unit price always the best deal?", a: "Not necessarily. Consider whether you can use all of a larger quantity before it expires, and whether storage space is available." },
+  { q: "How do stores calculate unit prices?", a: "Stores divide the total price by the quantity. For example, a 32oz bottle for $3.99 has a unit price of $0.125/oz." }
+];
+---
+<ToolLayout title="Unit Price Calculator" description="Compare prices per unit to find the best deal while shopping." slug="unit-price" faq={faq}>
+  <UnitPriceCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Unit Price Calculator</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Compare prices per unit to find the best deal while shopping. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

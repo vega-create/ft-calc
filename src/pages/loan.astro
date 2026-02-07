@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import LoanCalc from '../components/tools/LoanCalc';
+const faq = [
+  { q: "How is the monthly payment calculated?", a: "Using the standard amortization formula that accounts for principal, interest rate, and loan term to determine equal monthly payments." },
+  { q: "Should I choose a shorter or longer loan term?", a: "Shorter terms have higher monthly payments but save significantly on total interest. A 15-year mortgage can save tens of thousands compared to 30 years." }
+];
+---
+<ToolLayout title="Loan Calculator" description="Calculate monthly payments, total interest, and total cost for any loan." slug="loan" faq={faq}>
+  <LoanCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Loan Calculator</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Calculate monthly payments, total interest, and total cost for any loan. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

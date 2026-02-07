@@ -1,0 +1,29 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import BMICalc from '../components/tools/BMICalc';
+
+const faq = [
+  { q: "What is a healthy BMI range?", a: "A BMI between 18.5 and 24.9 is generally considered normal weight. Under 18.5 is underweight, 25-29.9 is overweight, and 30 or above is classified as obese." },
+  { q: "Is BMI accurate for athletes?", a: "BMI may overestimate body fat in athletes and muscular individuals because it doesn't distinguish between muscle and fat mass. Athletes should consider additional measurements like body fat percentage." },
+  { q: "How is BMI calculated?", a: "BMI = weight (kg) ÷ height (m)². In imperial units: BMI = (weight in lbs ÷ height in inches²) × 703." },
+  { q: "Does BMI apply to children?", a: "Children and teens use age- and sex-specific BMI percentiles rather than the standard adult BMI categories. Consult a pediatrician for children's BMI interpretation." },
+];
+---
+
+<ToolLayout title="BMI Calculator" description="Calculate your Body Mass Index (BMI) and see your weight category. Supports both imperial and metric units." slug="bmi" faq={faq}>
+  <BMICalc client:load slot="tool" />
+
+  <Fragment slot="tutorial">
+    <h2>How to Use the BMI Calculator</h2>
+    <p>Select your preferred unit system (imperial or metric), enter your weight and height, then click Calculate. The tool instantly shows your BMI value along with a visual category indicator.</p>
+
+    <h3>Understanding Your Results</h3>
+    <p>The color-coded bar below your result shows where you fall on the BMI scale. Green indicates normal weight, yellow indicates underweight, orange indicates overweight, and red indicates obesity. Each category has different health implications worth discussing with your doctor.</p>
+
+    <h2>BMI Categories Explained</h2>
+    <p>The World Health Organization classifies adult BMI into four main categories. Underweight (below 18.5) may indicate malnutrition or underlying health issues. Normal weight (18.5 to 24.9) is associated with the lowest health risks. Overweight (25 to 29.9) carries increased risk for certain conditions. Obese (30 and above) is associated with significantly higher health risks.</p>
+
+    <h2>Limitations of BMI</h2>
+    <p>BMI is a useful screening tool but has limitations. It does not account for muscle mass, bone density, age, sex, or ethnicity. A bodybuilder might have a "overweight" BMI despite having very low body fat. For a more complete picture, consider combining BMI with waist circumference measurements or body fat percentage testing.</p>
+  </Fragment>
+</ToolLayout>

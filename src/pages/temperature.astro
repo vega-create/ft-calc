@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import TemperatureCalc from '../components/tools/TemperatureCalc';
+const faq = [
+  { q: "What is the formula for C to F?", a: "Fahrenheit = (Celsius x 9/5) + 32. For a quick estimate, double the Celsius value and add 30." },
+  { q: "What is absolute zero?", a: "Absolute zero is 0 Kelvin (-273.15 C or -459.67 F), the theoretical lowest temperature where all molecular motion stops." }
+];
+---
+<ToolLayout title="Temperature Converter" description="Convert between Celsius, Fahrenheit, and Kelvin instantly." slug="temperature" faq={faq}>
+  <TemperatureCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Temperature Converter</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Convert between Celsius, Fahrenheit, and Kelvin instantly. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

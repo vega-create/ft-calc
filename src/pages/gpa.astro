@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import GPACalc from '../components/tools/GPACalc';
+const faq = [
+  { q: "What GPA do I need for Deans List?", a: "Most schools require 3.5+ GPA. Some require 3.7 or above. Check your institutions specific requirements." },
+  { q: "Can I raise a low GPA?", a: "Yes, but it takes time. With many credits already earned, each new semester has less impact. Focus on your highest possible grades going forward." }
+];
+---
+<ToolLayout title="GPA Calculator" description="Calculate your Grade Point Average from letter grades and credit hours." slug="gpa" faq={faq}>
+  <GPACalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the GPA Calculator</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Calculate your Grade Point Average from letter grades and credit hours. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

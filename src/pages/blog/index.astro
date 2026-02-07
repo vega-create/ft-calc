@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SEO from '../../components/SEO.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts');
+const posts = allPosts
+  .filter(post => new Date(post.data.publishDate) <= new Date())
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+
+const categories = [...new Set(posts.map(p => p.data.category))];
+---
+
+<BaseLayout>
+  <SEO slot="head" title="Calculator Guides & Tips — FreeToolkit Calc Blog" description="Learn how to use calculators effectively. Guides on percentages, compound interest, BMI, budgeting, and more." />
+
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "FreeToolkit Calculator Blog",
+    "description": "Calculator guides, tips, and how-to articles",
+    "url": "https://calc.freetoolkit.cc/blog/",
+    "blogPost": posts.map(post => ({
+      "@type": "BlogPosting",
+      "headline": post.data.title,
+      "description": post.data.description,
+      "datePublished": post.data.publishDate,
+      "url": `https://calc.freetoolkit.cc/blog/${post.id}/`,
+    })),
+  })} />
+
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <header class="mb-10">
+      <h1 class="text-3xl font-bold text-gray-900">📝 Calculator Guides & Tips</h1>
+      <p class="text-gray-600 mt-2">Practical guides to help you make better calculations in everyday life.</p>
+    </header>
+
+    {/* Category Filter */}
+    <div class="flex flex-wrap gap-2 mb-8">
+      <span class="px-3 py-1 bg-primary-600 text-white text-sm rounded-full font-medium">All</span>
+      {categories.map(cat => (
+        <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full hover:bg-gray-200 cursor-default">{cat}</span>
+      ))}
+    </div>
+
+    {/* Post List */}
+    <div class="space-y-6">
+      {posts.map(post => (
+        <a href={`/blog/${post.id}/`} class="block bg-white rounded-xl border border-gray-100 p-6 hover:shadow-md hover:border-primary-200 transition-all group">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2 py-0.5 bg-primary-50 text-primary-700 text-xs font-medium rounded-full uppercase">{post.data.category}</span>
+            <time datetime={post.data.publishDate} class="text-xs text-gray-400">
+              {new Date(post.data.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </time>
+          </div>
+          <h2 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">{post.data.title}</h2>
+          <p class="text-gray-600 mt-2 text-sm line-clamp-2">{post.data.description}</p>
+          {post.data.tags && (
+            <div class="flex flex-wrap gap-1 mt-3">
+              {post.data.tags.slice(0, 4).map(tag => (
+                <span class="px-2 py-0.5 bg-gray-50 text-gray-500 text-xs rounded">{tag}</span>
+              ))}
+            </div>
+          )}
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import LengthCalc from '../components/tools/LengthCalc';
+const faq = [
+  { q: "How many centimeters in an inch?", a: "One inch equals exactly 2.54 centimeters. This is a defined international standard." },
+  { q: "How do I convert feet and inches to cm?", a: "Convert to total inches first (feet x 12 + inches), then multiply by 2.54 to get centimeters." }
+];
+---
+<ToolLayout title="Length Converter" description="Convert between mm, cm, m, km, inches, feet, yards, and miles." slug="length" faq={faq}>
+  <LengthCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Length Converter</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Convert between mm, cm, m, km, inches, feet, yards, and miles. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

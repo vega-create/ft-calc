@@ -1,0 +1,32 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import TipCalc from '../components/tools/TipCalc';
+
+const faq = [
+  { q: "How much should I tip at a restaurant?", a: "In the US, 15-20% is standard for sit-down restaurants. 18-20% is most common. For exceptional service, 25% or more is appropriate." },
+  { q: "Do I tip on the pre-tax or post-tax amount?", a: "Technically, you should tip on the pre-tax subtotal. However, many people tip on the total including tax for simplicity. Either approach is acceptable." },
+  { q: "How do I calculate a 20% tip quickly in my head?", a: "Move the decimal point one place left to get 10%, then double it. For a $45 bill: 10% = $4.50, doubled = $9.00 tip." },
+  { q: "Should I tip for takeout orders?", a: "Tipping 10-15% on takeout is increasingly common, especially since 2020. It's not required but is appreciated by staff who prepare your order." },
+];
+---
+
+<ToolLayout title="Tip Calculator" description="Calculate tip amount and split the bill among friends. Quick presets for 15%, 18%, 20%, and 25%." slug="tip" faq={faq}>
+  <TipCalc client:load slot="tool" />
+
+  <Fragment slot="tutorial">
+    <h2>How to Use the Tip Calculator</h2>
+    <p>Enter your bill amount, select or type a tip percentage, and optionally set how many people are splitting the bill. The calculator shows the tip amount, total bill, and per-person cost instantly.</p>
+
+    <h3>Quick Tip Presets</h3>
+    <p>Use the preset buttons for the most common tip amounts: 15% for adequate service, 18% for good service, 20% for great service, and 25% for exceptional service. You can also type any custom percentage.</p>
+
+    <h3>Bill Splitting</h3>
+    <p>Dining with friends? Use the split feature to divide the total evenly. Adjust the number of people using the plus and minus buttons or type a number directly.</p>
+
+    <h2>US Tipping Guide</h2>
+    <p>Tipping customs vary by service type. For sit-down restaurants, 18-20% is standard. For delivery drivers, 15-20% or at least $3-5 per order is common. For hair stylists and barbers, 15-20% of the service cost is customary. For taxi and rideshare drivers, 15-20% is appreciated.</p>
+
+    <h2>Mental Math Tip Tricks</h2>
+    <p>For quick mental math: to calculate 10%, just move the decimal one place left. For 20%, double the 10% amount. For 15%, find 10% and add half of that. For example, on a $64 bill, 10% is $6.40, so 20% is $12.80 and 15% is $9.60.</p>
+  </Fragment>
+</ToolLayout>

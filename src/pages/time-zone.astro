@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import TimeZoneCalc from '../components/tools/TimeZoneCalc';
+const faq = [
+  { q: "Do time zones change for daylight saving?", a: "Yes, many zones shift by one hour during DST. The converter uses your browsers timezone data which accounts for current DST rules." },
+  { q: "How many time zones exist?", a: "There are 24 standard zones, but with half-hour and quarter-hour offsets, there are over 30 distinct time zones worldwide." }
+];
+---
+<ToolLayout title="Time Zone Converter" description="Convert time between 14 major world time zones instantly." slug="time-zone" faq={faq}>
+  <TimeZoneCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Time Zone Converter</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Convert time between 14 major world time zones instantly. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

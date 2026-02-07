@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import SalaryCalc from '../components/tools/SalaryCalc';
+const faq = [
+  { q: "How do I convert salary to hourly rate?", a: "Divide annual salary by total work hours per year. Standard full-time is 2,080 hours (40 hours/week x 52 weeks)." },
+  { q: "Should I account for paid time off?", a: "If you get PTO, your effective hourly rate is higher. Reduce the weeks/year to account for vacation time." }
+];
+---
+<ToolLayout title="Salary to Hourly Converter" description="Convert between annual salary and hourly rate with full breakdowns." slug="salary" faq={faq}>
+  <SalaryCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Salary to Hourly Converter</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Convert between annual salary and hourly rate with full breakdowns. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

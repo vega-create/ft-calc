@@ -1,0 +1,17 @@
+---
+import ToolLayout from '../layouts/ToolLayout.astro';
+import WeightCalc from '../components/tools/WeightCalc';
+const faq = [
+  { q: "How many pounds in a kilogram?", a: "One kilogram equals approximately 2.205 pounds. To convert kg to lbs, multiply by 2.205." },
+  { q: "What is a stone?", a: "A stone equals 14 pounds (6.35 kg), commonly used in the UK and Ireland for measuring body weight." }
+];
+---
+<ToolLayout title="Weight Converter" description="Convert between mg, g, kg, oz, lb, stone, and metric tons." slug="weight" faq={faq}>
+  <WeightCalc client:load slot="tool" />
+  <Fragment slot="tutorial">
+    <h2>How to Use the Weight Converter</h2>
+    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
+    <h2>About This Tool</h2>
+    <p>Convert between mg, g, kg, oz, lb, stone, and metric tons. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+  </Fragment>
+</ToolLayout>

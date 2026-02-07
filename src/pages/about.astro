@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+---
+<BaseLayout>
+  <SEO slot="head" title="About Us" description="Learn about FreeToolkit Calculator — free online calculators for everyday math, finance, health, and more." />
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">About FreeToolkit Calculator</h1>
+
+    <div class="prose prose-lg max-w-none">
+      <p>FreeToolkit Calculator provides free, fast, and accurate online calculators for everyday use. Whether you need to split a restaurant bill, calculate your BMI, figure out a loan payment, or convert units, we've got you covered.</p>
+
+      <h2>Our Mission</h2>
+      <p>We believe essential calculation tools should be free, fast, and accessible to everyone. No sign-ups, no downloads, no ads blocking your results. Just type your numbers and get instant, accurate answers.</p>
+
+      <h2>How Our Calculators Work</h2>
+      <p>All calculations happen directly in your browser using JavaScript. Your data never leaves your device — we don't store, track, or transmit any numbers you enter. This means our tools work even when you're offline (after the initial page load).</p>
+
+      <h2>Accuracy</h2>
+      <p>Our calculators use industry-standard formulas and methods. The BMI calculator follows WHO guidelines. The compound interest calculator uses the standard compounding formula. The calorie calculator uses the Mifflin-St Jeor equation, widely regarded as the most accurate predictive equation for estimating resting metabolic rate.</p>
+      <p>While we strive for accuracy, please note that calculators provide estimates and should not replace professional advice. Always consult qualified professionals for financial, medical, or legal decisions.</p>
+
+      <h2>Categories</h2>
+      <p>Our calculator collection spans six categories:</p>
+      <ul>
+        <li><strong>Everyday Math</strong> — percentage, tip, discount, average, and random number generators</li>
+        <li><strong>Finance</strong> — compound interest, loan payments, salary conversion, and price comparison</li>
+        <li><strong>Time & Date</strong> — age calculator, date difference, and time zone converter</li>
+        <li><strong>Health</strong> — BMI, calorie needs, and body fat estimation</li>
+        <li><strong>Academic</strong> — GPA and final grade calculators</li>
+        <li><strong>Conversion</strong> — temperature, length, and weight unit converters</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Have a suggestion for a new calculator? Found a bug? We'd love to hear from you. Visit our <a href="/contact/" class="text-primary-600 hover:underline">contact page</a> to get in touch.</p>
+    </div>
+  </div>
+</BaseLayout>
