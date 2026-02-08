@@ -36,17 +36,17 @@ const categories = [...new Set(posts.map(p => p.data.category))];
     </header>
 
     {/* Category Filter */}
-    <div class="flex flex-wrap gap-2 mb-8">
-      <span class="px-3 py-1 bg-primary-600 text-white text-sm rounded-full font-medium">All</span>
+    <div class="flex flex-wrap gap-2 mb-8" id="category-filter">
+      <button data-category="all" class="px-3 py-1 bg-primary-600 text-white text-sm rounded-full font-medium transition-colors active-filter">All</button>
       {categories.map(cat => (
-        <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full hover:bg-gray-200 cursor-default">{cat}</span>
+        <button data-category={cat} class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full hover:bg-gray-200 transition-colors cursor-pointer">{cat}</button>
       ))}
     </div>
 
     {/* Post List */}
-    <div class="space-y-6">
+    <div class="space-y-6" id="post-list">
       {posts.map(post => (
-        <a href={`/blog/${post.id}/`} class="block bg-white rounded-xl border border-gray-100 p-6 hover:shadow-md hover:border-primary-200 transition-all group">
+        <a href={`/blog/${post.id}/`} data-post-category={post.data.category} class="block bg-white rounded-xl border border-gray-100 p-6 hover:shadow-md hover:border-primary-200 transition-all group">
           <div class="flex items-center gap-3 mb-2">
             <span class="px-2 py-0.5 bg-primary-50 text-primary-700 text-xs font-medium rounded-full uppercase">{post.data.category}</span>
             <time datetime={post.data.publishDate} class="text-xs text-gray-400">
@@ -65,5 +65,28 @@ const categories = [...new Set(posts.map(p => p.data.category))];
         </a>
       ))}
     </div>
+
+    <script is:inline>
+      document.getElementById('category-filter').addEventListener('click', (e) => {
+        const btn = e.target.closest('button');
+        if (!btn) return;
+        const category = btn.dataset.category;
+        // Update active button
+        document.querySelectorAll('#category-filter button').forEach(b => {
+          b.classList.remove('bg-primary-600', 'text-white', 'active-filter');
+          b.classList.add('bg-gray-100', 'text-gray-600');
+        });
+        btn.classList.remove('bg-gray-100', 'text-gray-600');
+        btn.classList.add('bg-primary-600', 'text-white', 'active-filter');
+        // Filter posts
+        document.querySelectorAll('#post-list > a').forEach(post => {
+          if (category === 'all' || post.dataset.postCategory === category) {
+            post.style.display = '';
+          } else {
+            post.style.display = 'none';
+          }
+        });
+      });
+    </script>
   </div>
 </BaseLayout>
