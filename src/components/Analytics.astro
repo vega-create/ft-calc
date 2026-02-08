@@ -2,9 +2,16 @@
 import { siteConfig } from '../site.config';
 
 const gtmId = siteConfig.tracking?.gtm;
+const ga4Id = siteConfig.analytics?.ga4;
 const adsenseClient = siteConfig.adsense?.client;
 const adsenseEnabled = siteConfig.adsense?.enabled;
+const googleVerification = siteConfig.verification?.google;
 ---
+
+{/* Google Search Console 驗證 */}
+{googleVerification && (
+  <meta name="google-site-verification" content={googleVerification} />
+)}
 
 {/* Google Tag Manager */}
 {gtmId && (
@@ -15,6 +22,19 @@ const adsenseEnabled = siteConfig.adsense?.enabled;
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer',gtmId);
   </script>
+)}
+
+{/* GA4 直接埋碼（沒用 GTM 時啟用） */}
+{ga4Id && !gtmId && (
+  <Fragment>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}></script>
+    <script is:inline define:vars={{ ga4Id }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', ga4Id);
+    </script>
+  </Fragment>
 )}
 
 {/* AdSense script */}
