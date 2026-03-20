@@ -17,12 +17,22 @@ image: "https://images.pexels.com/photos/5942520/pexels-photo-5942520.jpeg?auto=
 imageAlt: "A close-up of a calculator and US dollar banknotes, symbolizing financial calculation and budgeting."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">How Loan Payments Work</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">How a $1,331 Monthly Payment Shifts Over Time (30yr @ 7%)</div>
+<div style="display: grid; grid-template-columns: auto 1fr 1fr; gap: 0.3rem; font-size: 0.75rem;">
+<div style="font-weight: 700; color: #64748b; padding: 0.3rem;">Year</div>
+<div style="font-weight: 700; color: #dc2626; text-align: center; padding: 0.3rem;">→ Interest</div>
+<div style="font-weight: 700; color: #2563eb; text-align: center; padding: 0.3rem;">→ Principal</div>
+<div style="padding: 0.3rem; font-weight: 600;">1</div>
+<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center;">$1,164 (87%)</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">$167 (13%)</div>
+<div style="padding: 0.3rem; font-weight: 600;">15</div>
+<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center;">$831 (62%)</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">$500 (38%)</div>
+<div style="padding: 0.3rem; font-weight: 600;">30</div>
+<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center;">$9 (1%)</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">$1,322 (99%)</div>
+</div></div>
 You just signed a 30-year mortgage for $300,000 at 7% interest. Your monthly payment is $1,996. Over 30 years, you'll pay a total of $718,527 — more than double the original loan amount. Wait, what?
 
 It sounds shocking, but that's exactly how amortization works. Understanding it is the key to making smarter borrowing decisions.

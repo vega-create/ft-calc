@@ -17,12 +17,26 @@ image: "https://images.pexels.com/photos/3305/numbers-money-calculating-calculat
 imageAlt: "Close-up of stacked coins and a calculator symbolizing financial strategy and budgeting."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Unit Price Comparison Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f0fdf4; border-radius: 12px; padding: 1.2rem; border: 1px solid #bbf7d0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #166534; margin-bottom: 0.8rem;">Cereal Unit Price Comparison</div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 0.3rem; font-size: 0.75rem;">
+<div style="font-weight: 700; color: #64748b; padding: 0.3rem;">Size</div>
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">Price</div>
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">Weight</div>
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">$/oz</div>
+<div style="padding: 0.3rem;">Small Box</div>
+<div style="text-align: center; padding: 0.3rem;">$3.99</div>
+<div style="text-align: center; padding: 0.3rem;">12 oz</div>
+<div style="background: #fecaca; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 700; color: #dc2626;">$0.33</div>
+<div style="padding: 0.3rem;">Medium Box</div>
+<div style="text-align: center; padding: 0.3rem;">$5.49</div>
+<div style="text-align: center; padding: 0.3rem;">18 oz</div>
+<div style="background: #fef3c7; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 700; color: #d97706;">$0.31</div>
+<div style="padding: 0.3rem;">Family Size</div>
+<div style="text-align: center; padding: 0.3rem;">$6.99</div>
+<div style="text-align: center; padding: 0.3rem;">28 oz</div>
+<div style="background: #dcfce7; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 700; color: #16a34a;">$0.25 ✓</div>
+</div></div>
 You're standing in the cereal aisle staring at two boxes of the same brand. The 18 oz box is $4.29. The 24 oz box is $5.49. Which one is the better deal?
 
 Your gut says the bigger box — but is it? This is where unit pricing saves you real money.

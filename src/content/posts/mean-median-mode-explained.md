@@ -17,12 +17,22 @@ image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=
 imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Mean Median Mode Explained</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Dataset: 2, 3, 5, 5, 7, 9, 42</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem;">
+<div style="background: #dbeafe; padding: 0.8rem; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-size: 0.7rem; color: #6b7280;">Mean (Average)</div>
+<div style="font-size: 1.3rem; font-weight: 800; color: #2563eb;">10.4</div>
+<div style="font-size: 0.65rem; color: #3b82f6;">Skewed by outlier 42</div></div>
+<div style="background: #d1fae5; padding: 0.8rem; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-size: 0.7rem; color: #6b7280;">Median (Middle)</div>
+<div style="font-size: 1.3rem; font-weight: 800; color: #059669;">5</div>
+<div style="font-size: 0.65rem; color: #10b981;">More representative</div></div>
+<div style="background: #faf5ff; padding: 0.8rem; border-radius: 10px; text-align: center; border: 1px solid #e9d5ff;">
+<div style="font-size: 0.7rem; color: #6b7280;">Mode (Most Common)</div>
+<div style="font-size: 1.3rem; font-weight: 800; color: #7c3aed;">5</div>
+<div style="font-size: 0.65rem; color: #8b5cf6;">Appears twice</div></div>
+</div></div>
 If Bill Gates walks into a bar with 99 other people, the average person in that bar is a billionaire. Obviously, no one else actually got richer — but the mean income in the room just skyrocketed.
 
 This classic example shows why understanding different types of averages matters. The wrong average can be actively misleading.

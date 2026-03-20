@@ -17,22 +17,19 @@ image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
 
-<div style="margin: 2rem 0; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid #e5e7eb;">
-<div style="font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #111827;">📊 The 50/30/20 Budget Breakdown</div>
-<div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
-<span style="width: 100px; font-size: 0.85rem; color: #374151; font-weight: 600;">Needs</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 28px; overflow: hidden;">
-<div style="width: 50%; height: 100%; background: linear-gradient(90deg, #3b82f6, #60a5fa); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 0.8rem; color: white; font-weight: 700;">50%</div></div></div>
-<div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
-<span style="width: 100px; font-size: 0.85rem; color: #374151; font-weight: 600;">Wants</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 28px; overflow: hidden;">
-<div style="width: 30%; height: 100%; background: linear-gradient(90deg, #8b5cf6, #a78bfa); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 0.8rem; color: white; font-weight: 700;">30%</div></div></div>
-<div style="display: flex; align-items: center;">
-<span style="width: 100px; font-size: 0.85rem; color: #374151; font-weight: 600;">Savings</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 28px; overflow: hidden;">
-<div style="width: 20%; height: 100%; background: linear-gradient(90deg, #10b981, #34d399); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 0.8rem; color: white; font-weight: 700;">20%</div></div></div>
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">50/30/20 Budget Split — On a $4,000 Monthly Income</div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+<div style="width: 50%; background: #3b82f6; color: white; padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600;">50% Needs — $2,000</div>
 </div>
-
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+<div style="width: 30%; background: #8b5cf6; color: white; padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600;">30% Wants — $1,200</div>
+</div>
+<div style="display: flex; align-items: center; gap: 0.5rem;">
+<div style="width: 20%; background: #10b981; color: white; padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600;">20% Save — $800</div>
+</div>
+<div style="margin-top: 0.6rem; font-size: 0.7rem; color: #94a3b8;">Needs: rent, groceries, insurance | Wants: dining, entertainment | Savings: emergency fund, retirement</div>
+</div>
 Marcus brings home $4,500 per month after taxes. He pays his bills, buys what he wants, and by the 25th, the account is nearly empty. Every month feels like a financial scramble. He doesn't overspend on anything crazy — but somehow, there's never enough left over.
 
 If this sounds familiar, the 50/30/20 rule might be exactly what you need. It's the simplest budgeting framework that actually works.

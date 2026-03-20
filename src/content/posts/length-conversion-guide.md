@@ -17,12 +17,22 @@ image: "https://images.pexels.com/photos/35970041/pexels-photo-35970041.jpeg?aut
 imageAlt: "Detailed image of a ruler and pencil marking 50mm on graph paper."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Length Conversion Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Key Length Conversions</div>
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.3rem; font-size: 0.8rem; align-items: center;">
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 inch</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">2.54 cm</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 foot</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">0.3048 m</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 mile</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">1.609 km</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 yard</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">0.9144 m</div>
+</div></div>
 You're traveling in Europe and the road sign says 120 km to your destination. How far is that in miles? Or you're buying a couch online and it's listed as 2.1 meters long. Will it fit in your living room?
 
 Whether you're traveling, shopping internationally, or just trying to understand a recipe from another country, length conversions come up constantly.

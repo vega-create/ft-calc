@@ -17,12 +17,18 @@ image: "https://images.pexels.com/photos/7092398/pexels-photo-7092398.jpeg?auto=
 imageAlt: "A student covertly uses a cheat sheet hidden in a calculator during an exam."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">How Many Calories Do You Need</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Daily Calorie Needs by Activity Level (Average Adult)</div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 55%; background: #94a3b8; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Sedentary: 1,600-2,000</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 70%; background: #60a5fa; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Moderate: 2,000-2,400</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 85%; background: #f59e0b; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Active: 2,400-2,800</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem;">
+<div style="width: 100%; background: #ef4444; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Very Active: 2,800-3,200</div></div>
+<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #94a3b8;">Weight loss = eat 500 fewer calories/day → lose ~1 lb/week</div>
 </div>
-
 Emily started a new diet and cut down to 1,200 calories a day. She was hungry all the time, couldn't focus at work, and quit after two weeks. The problem wasn't willpower — she was eating far less than her body actually needed.
 
 Knowing your calorie needs isn't about obsessive counting. It's about understanding the basic math of energy so you can make informed choices.

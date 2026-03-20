@@ -17,19 +17,32 @@ image: "https://images.pexels.com/photos/7092509/pexels-photo-7092509.jpeg?auto=
 imageAlt: "College student focusing on math test, using a calculator at a desk."
 ---
 
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 0.5rem;">
-<div style="padding: 0.6rem; background: #f0fdf4; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
-<div style="font-weight: 800; color: #16a34a; font-size: 1.1rem;">A</div><div style="color: #6b7280; font-size: 0.7rem;">4.0</div></div>
-<div style="padding: 0.6rem; background: #eff6ff; border-radius: 8px; text-align: center; border: 1px solid #bfdbfe;">
-<div style="font-weight: 800; color: #2563eb; font-size: 1.1rem;">B</div><div style="color: #6b7280; font-size: 0.7rem;">3.0</div></div>
-<div style="padding: 0.6rem; background: #fefce8; border-radius: 8px; text-align: center; border: 1px solid #fef08a;">
-<div style="font-weight: 800; color: #ca8a04; font-size: 1.1rem;">C</div><div style="color: #6b7280; font-size: 0.7rem;">2.0</div></div>
-<div style="padding: 0.6rem; background: #fff7ed; border-radius: 8px; text-align: center; border: 1px solid #fed7aa;">
-<div style="font-weight: 800; color: #ea580c; font-size: 1.1rem;">D</div><div style="color: #6b7280; font-size: 0.7rem;">1.0</div></div>
-<div style="padding: 0.6rem; background: #fef2f2; border-radius: 8px; text-align: center; border: 1px solid #fecaca;">
-<div style="font-weight: 800; color: #dc2626; font-size: 1.1rem;">F</div><div style="color: #6b7280; font-size: 0.7rem;">0.0</div></div>
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">GPA Calculation Example — 4 Courses</div>
+<div style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 0.3rem; font-size: 0.75rem;">
+<div style="font-weight: 700; color: #64748b; padding: 0.3rem;">Course</div>
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">Grade</div>
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">Credits</div>
+<div style="font-weight: 700; color: #64748b; text-align: center; padding: 0.3rem;">Points</div>
+<div style="padding: 0.3rem;">Math</div>
+<div style="background: #dcfce7; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 600;">A (4.0)</div>
+<div style="text-align: center; padding: 0.3rem;">3</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">12.0</div>
+<div style="padding: 0.3rem;">English</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 600;">B (3.0)</div>
+<div style="text-align: center; padding: 0.3rem;">3</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">9.0</div>
+<div style="padding: 0.3rem;">Science</div>
+<div style="background: #dcfce7; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 600;">A- (3.7)</div>
+<div style="text-align: center; padding: 0.3rem;">4</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">14.8</div>
+<div style="padding: 0.3rem;">History</div>
+<div style="background: #fef3c7; padding: 0.3rem; border-radius: 4px; text-align: center; font-weight: 600;">C+ (2.3)</div>
+<div style="text-align: center; padding: 0.3rem;">3</div>
+<div style="text-align: center; padding: 0.3rem; font-weight: 600;">6.9</div>
 </div>
-
+<div style="margin-top: 0.5rem; text-align: right; font-weight: 700; color: #2563eb; font-size: 0.85rem;">GPA = 42.7 ÷ 13 = 3.28</div>
+</div>
 It's midway through your sophomore year and you just realized you need a 3.2 GPA to keep your scholarship. You have a pile of transcripts and grade reports, but no idea how to actually calculate the number. Sound familiar?
 
 GPA calculation isn't complicated once you understand the system. Here's everything you need to know.

@@ -17,12 +17,25 @@ image: "https://images.pexels.com/photos/7697690/pexels-photo-7697690.jpeg?auto=
 imageAlt: "Two young adults work together solving equations on a chalkboard, fostering education and teamwork."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Healthy Body Fat Percentage</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Healthy Body Fat % by Age (Women / Men)</div>
+<div style="display: grid; grid-template-columns: auto 1fr 1fr; gap: 0.3rem; font-size: 0.75rem; align-items: center;">
+<div style="font-weight: 700; color: #64748b; padding: 0.3rem;">Age</div>
+<div style="font-weight: 700; color: #db2777; text-align: center; padding: 0.3rem;">Women</div>
+<div style="font-weight: 700; color: #2563eb; text-align: center; padding: 0.3rem;">Men</div>
+<div style="padding: 0.3rem; color: #334155; font-weight: 600;">20-29</div>
+<div style="background: #fce7f3; padding: 0.3rem; border-radius: 4px; text-align: center;">16-24%</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">7-17%</div>
+<div style="padding: 0.3rem; color: #334155; font-weight: 600;">30-39</div>
+<div style="background: #fce7f3; padding: 0.3rem; border-radius: 4px; text-align: center;">17-25%</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">12-21%</div>
+<div style="padding: 0.3rem; color: #334155; font-weight: 600;">40-49</div>
+<div style="background: #fce7f3; padding: 0.3rem; border-radius: 4px; text-align: center;">19-28%</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">14-23%</div>
+<div style="padding: 0.3rem; color: #334155; font-weight: 600;">50-59</div>
+<div style="background: #fce7f3; padding: 0.3rem; border-radius: 4px; text-align: center;">22-31%</div>
+<div style="background: #dbeafe; padding: 0.3rem; border-radius: 4px; text-align: center;">16-24%</div>
+</div></div>
 Step on a scale and you get one number. But that number doesn't tell you whether your 180 pounds is mostly muscle or mostly fat. Two people can weigh exactly the same but look completely different and have vastly different health risks.
 
 That's why body fat percentage matters more than weight alone.

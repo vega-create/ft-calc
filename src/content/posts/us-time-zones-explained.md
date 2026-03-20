@@ -17,12 +17,26 @@ image: "https://images.pexels.com/photos/6325934/pexels-photo-6325934.jpeg?auto=
 imageAlt: "A mathematics instructor explaining algebraic equations on a whiteboard in a classroom setting."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Us Time Zones Explained</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">US Time Zones — When It's 12:00 PM in New York</div>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem;">
+<div style="background: #dbeafe; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #1e40af;">12 PM</div>
+<div style="font-size: 0.7rem; font-weight: 600; color: #2563eb;">EST</div>
+<div style="font-size: 0.6rem; color: #6b7280;">New York</div></div>
+<div style="background: #d1fae5; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #059669;">11 AM</div>
+<div style="font-size: 0.7rem; font-weight: 600; color: #10b981;">CST</div>
+<div style="font-size: 0.6rem; color: #6b7280;">Chicago</div></div>
+<div style="background: #fef3c7; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #b45309;">10 AM</div>
+<div style="font-size: 0.7rem; font-weight: 600; color: #d97706;">MST</div>
+<div style="font-size: 0.6rem; color: #6b7280;">Denver</div></div>
+<div style="background: #fce7f3; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #f9a8d4;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #be185d;">9 AM</div>
+<div style="font-size: 0.7rem; font-weight: 600; color: #db2777;">PST</div>
+<div style="font-size: 0.6rem; color: #6b7280;">Los Angeles</div></div>
+</div></div>
 You're scheduling a video call with your team — one person is in New York, another in Chicago, and a third in Los Angeles. What time works for everyone? If you've ever stared at your screen trying to do this math, you're not alone.
 
 ## The Four Main US Time Zones

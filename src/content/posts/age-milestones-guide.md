@@ -17,12 +17,23 @@ image: "https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=co
 imageAlt: "Chalkboard with a humorous incorrect math equation, ideal for educational settings."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Age Milestones Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #d97706;">1</div>
+<div style="font-size: 0.7rem; color: #92400e; font-weight: 600;">First Steps</div></div>
+<div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #2563eb;">16</div>
+<div style="font-size: 0.7rem; color: #1e40af; font-weight: 600;">Drive</div></div>
+<div style="padding: 0.7rem; background: #d1fae5; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #059669;">18</div>
+<div style="font-size: 0.7rem; color: #065f46; font-weight: 600;">Vote</div></div>
+<div style="padding: 0.7rem; background: #ede9fe; border-radius: 10px; text-align: center; border: 1px solid #c4b5fd;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #7c3aed;">21</div>
+<div style="font-size: 0.7rem; color: #5b21b6; font-weight: 600;">Drink (US)</div></div>
+<div style="padding: 0.7rem; background: #fce7f3; border-radius: 10px; text-align: center; border: 1px solid #f9a8d4;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #db2777;">65</div>
+<div style="font-size: 0.7rem; color: #9d174d; font-weight: 600;">Medicare</div></div>
 </div>
-
 How old are you — really? Most people know their age in years, but can you say exactly how many months, weeks, or days you've been alive? And does it actually matter?
 
 It turns out that knowing your precise age is more important than you might think — especially when it comes to legal rights, insurance, retirement planning, and medical milestones.

@@ -17,12 +17,24 @@ image: "https://images.pexels.com/photos/6256237/pexels-photo-6256237.jpeg?auto=
 imageAlt: "A teenager writes mathematical equations on a blackboard, focusing on geometry and trigonometry."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">What Grade Do I Need On Final</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; background: #fef2f2; border-radius: 12px; padding: 1.2rem; border: 1px solid #fecaca;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #991b1b; margin-bottom: 0.8rem;">Current Grade: 78% | Final = 30% of Grade</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5rem;">
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fecaca;">
+<div style="font-size: 0.65rem; color: #6b7280;">Want a C (70%)</div>
+<div style="font-weight: 800; color: #16a34a; font-size: 1.1rem;">51%</div>
+<div style="font-size: 0.6rem; color: #16a34a;">Easy!</div></div>
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fecaca;">
+<div style="font-size: 0.65rem; color: #6b7280;">Want a B (80%)</div>
+<div style="font-weight: 800; color: #f59e0b; font-size: 1.1rem;">85%</div>
+<div style="font-size: 0.6rem; color: #f59e0b;">Doable</div></div>
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fecaca;">
+<div style="font-size: 0.65rem; color: #6b7280;">Want an A (90%)</div>
+<div style="font-weight: 800; color: #dc2626; font-size: 1.1rem;">118%</div>
+<div style="font-size: 0.6rem; color: #dc2626;">Not possible</div></div>
 </div>
-
+<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #991b1b;">Formula: (Target − Current × (1 − Final Weight)) ÷ Final Weight</div>
+</div>
 It's Week 12. You've gotten an 88 on the midterm, averaged 75 on homework, and scored 92 on the paper. Your final exam is worth 40% of the grade. Can you still get an A? And what's the minimum score you need to keep a B?
 
 These are the questions every student asks at the end of the semester. Here's how to answer them.

@@ -17,12 +17,22 @@ image: "https://images.pexels.com/photos/3986613/pexels-photo-3986613.jpeg?auto=
 imageAlt: "A person writes mathematical equations in a notebook using a ruler and pencil, focused on solving problems."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Weight Conversion Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Weight Conversion Quick Reference</div>
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.3rem; font-size: 0.8rem; align-items: center;">
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 lb</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">0.4536 kg</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 kg</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">2.2046 lbs</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 oz</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">28.35 g</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #1e40af;">1 stone</div>
+<div style="color: #94a3b8;">=</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #059669;">6.35 kg</div>
+</div></div>
 You're at the gym in another country. The dumbbell rack shows 20 kg. Is that heavy or light? Or you're ordering something online from Europe, and the shipping calculator wants your package weight in kilograms. If you grew up with pounds, these conversions don't come naturally.
 
 Let's fix that with a clear, practical guide to weight conversions.

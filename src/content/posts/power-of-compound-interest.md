@@ -17,12 +17,26 @@ image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Power Of Compound Interest</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f0fdf4; border-radius: 12px; padding: 1.2rem; border: 1px solid #bbf7d0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #166534; margin-bottom: 0.8rem;">$100/Month at 10% Annual Return</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5rem;">
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
+<div style="font-size: 0.65rem; color: #6b7280;">10 Years</div>
+<div style="font-weight: 800; color: #16a34a; font-size: 1rem;">$20K</div>
+<div style="font-size: 0.6rem; color: #6b7280;">put in $12K</div></div>
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
+<div style="font-size: 0.65rem; color: #6b7280;">20 Years</div>
+<div style="font-weight: 800; color: #16a34a; font-size: 1rem;">$76K</div>
+<div style="font-size: 0.6rem; color: #6b7280;">put in $24K</div></div>
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
+<div style="font-size: 0.65rem; color: #6b7280;">30 Years</div>
+<div style="font-weight: 800; color: #16a34a; font-size: 1rem;">$226K</div>
+<div style="font-size: 0.6rem; color: #6b7280;">put in $36K</div></div>
+<div style="background: #166534; padding: 0.6rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 0.65rem; color: #bbf7d0;">40 Years</div>
+<div style="font-weight: 800; color: white; font-size: 1rem;">$632K</div>
+<div style="font-size: 0.6rem; color: #bbf7d0;">put in $48K</div></div>
+</div></div>
 Here's a mind-bending fact: if you invested just $100 per month starting at age 25 with a 10% average annual return, you'd have over $1.1 million by age 65. Wait until 35 to start the same investment, and you'd end up with only about $395,000. That 10-year delay cost you over $700,000 — even though you only missed $12,000 in actual contributions.
 
 This is the magic of compound interest, and understanding it is the single most important financial concept you'll ever learn.

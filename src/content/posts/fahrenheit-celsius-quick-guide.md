@@ -17,12 +17,22 @@ image: "https://images.pexels.com/photos/4022334/pexels-photo-4022334.jpeg?auto=
 imageAlt: "Detailed image of a glass thermometer displaying temperature in degrees."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Fahrenheit Celsius Quick Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Quick Temperature Reference</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr 2fr; gap: 0.3rem; font-size: 0.75rem;">
+<div style="background: #1e40af; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">32°F</div>
+<div style="background: #1e40af; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">0°C</div>
+<div style="padding: 0.4rem; color: #6b7280;">Water freezes</div>
+<div style="background: #2563eb; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">68°F</div>
+<div style="background: #2563eb; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">20°C</div>
+<div style="padding: 0.4rem; color: #6b7280;">Room temp</div>
+<div style="background: #f59e0b; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">98.6°F</div>
+<div style="background: #f59e0b; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">37°C</div>
+<div style="padding: 0.4rem; color: #6b7280;">Body temp</div>
+<div style="background: #ef4444; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">212°F</div>
+<div style="background: #ef4444; color: white; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700;">100°C</div>
+<div style="padding: 0.4rem; color: #6b7280;">Water boils</div>
+</div></div>
 Is 25°C warm enough for shorts? Is 180°C the right oven temperature for chicken? What does it mean when the weather app abroad says "it feels like -5"?
 
 If you've ever traveled internationally or followed a recipe from another country, you've hit the Fahrenheit-Celsius wall. Here's how to break through it.

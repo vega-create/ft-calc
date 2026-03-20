@@ -17,12 +17,22 @@ image: "https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=co
 imageAlt: "Chalkboard with a humorous incorrect math equation, ideal for educational settings."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Us Tipping Guide Complete</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">US Tipping Guide by Service Type</div>
+<div style="display: grid; grid-template-columns: 2fr 1fr; gap: 0.3rem; font-size: 0.8rem;">
+<div style="padding: 0.4rem; font-weight: 600;">Restaurant (sit-down)</div>
+<div style="background: #dcfce7; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700; color: #16a34a;">18-20%</div>
+<div style="padding: 0.4rem; font-weight: 600;">Bartender</div>
+<div style="background: #dbeafe; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700; color: #2563eb;">$1-2/drink</div>
+<div style="padding: 0.4rem; font-weight: 600;">Food delivery</div>
+<div style="background: #fef3c7; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700; color: #d97706;">15-20%</div>
+<div style="padding: 0.4rem; font-weight: 600;">Hair stylist</div>
+<div style="background: #ede9fe; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700; color: #7c3aed;">15-20%</div>
+<div style="padding: 0.4rem; font-weight: 600;">Hotel housekeeping</div>
+<div style="background: #fce7f3; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700; color: #db2777;">$2-5/night</div>
+<div style="padding: 0.4rem; font-weight: 600;">Rideshare/Taxi</div>
+<div style="background: #d1fae5; padding: 0.4rem; border-radius: 4px; text-align: center; font-weight: 700; color: #059669;">15-20%</div>
+</div></div>
 You're visiting the US for the first time. The check arrives at the restaurant. Your meal was $47.50, and now you're staring at the tip line wondering if you're about to commit a social faux pas.
 
 Or maybe you're American and still not sure what to tip the hotel housekeeper, the hairdresser, or the Uber driver. You're not alone — tipping culture is complicated, inconsistent, and constantly changing.

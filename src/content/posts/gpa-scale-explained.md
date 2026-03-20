@@ -17,12 +17,26 @@ image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=
 imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Gpa Scale Explained</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">US GPA Scale — Letter Grade to Points</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); gap: 0.4rem;">
+<div style="padding: 0.5rem; background: #dcfce7; border-radius: 8px; text-align: center; border: 1px solid #86efac;">
+<div style="font-weight: 800; color: #166534; font-size: 1.1rem;">A+</div><div style="color: #6b7280; font-size: 0.7rem;">4.0</div></div>
+<div style="padding: 0.5rem; background: #dcfce7; border-radius: 8px; text-align: center; border: 1px solid #86efac;">
+<div style="font-weight: 800; color: #166534; font-size: 1.1rem;">A</div><div style="color: #6b7280; font-size: 0.7rem;">4.0</div></div>
+<div style="padding: 0.5rem; background: #d1fae5; border-radius: 8px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-weight: 800; color: #059669; font-size: 1.1rem;">A-</div><div style="color: #6b7280; font-size: 0.7rem;">3.7</div></div>
+<div style="padding: 0.5rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-weight: 800; color: #2563eb; font-size: 1.1rem;">B+</div><div style="color: #6b7280; font-size: 0.7rem;">3.3</div></div>
+<div style="padding: 0.5rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-weight: 800; color: #2563eb; font-size: 1.1rem;">B</div><div style="color: #6b7280; font-size: 0.7rem;">3.0</div></div>
+<div style="padding: 0.5rem; background: #fef3c7; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-weight: 800; color: #b45309; font-size: 1.1rem;">C</div><div style="color: #6b7280; font-size: 0.7rem;">2.0</div></div>
+<div style="padding: 0.5rem; background: #fed7aa; border-radius: 8px; text-align: center; border: 1px solid #fdba74;">
+<div style="font-weight: 800; color: #c2410c; font-size: 1.1rem;">D</div><div style="color: #6b7280; font-size: 0.7rem;">1.0</div></div>
+<div style="padding: 0.5rem; background: #fecaca; border-radius: 8px; text-align: center; border: 1px solid #fca5a5;">
+<div style="font-weight: 800; color: #dc2626; font-size: 1.1rem;">F</div><div style="color: #6b7280; font-size: 0.7rem;">0.0</div></div>
+</div></div>
 Jessica had a 3.4 GPA and was convinced she couldn't get into a good college. Meanwhile, her friend Marcus had a 4.2 GPA. How is that even possible on a 4.0 scale? Understanding how GPA actually works — and what colleges really care about — can save you a lot of unnecessary stress.
 
 ## The 4.0 Scale

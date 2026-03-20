@@ -17,12 +17,23 @@ image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">How To Calculate Discounts</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; background: #faf5ff; border-radius: 12px; padding: 1.2rem; border: 1px solid #e9d5ff;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #581c87; margin-bottom: 0.8rem;">Stacked Discounts: 20% + Extra 10% Off $100</div>
+<div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+<div style="background: white; padding: 0.5rem 0.8rem; border-radius: 8px; text-align: center; border: 1px solid #e9d5ff;">
+<div style="font-size: 0.7rem; color: #6b7280;">Original</div>
+<div style="font-weight: 800; color: #334155;">$100</div></div>
+<div style="color: #7c3aed; font-weight: 700;">→ −20%</div>
+<div style="background: white; padding: 0.5rem 0.8rem; border-radius: 8px; text-align: center; border: 1px solid #e9d5ff;">
+<div style="font-size: 0.7rem; color: #6b7280;">After 1st</div>
+<div style="font-weight: 800; color: #7c3aed;">$80</div></div>
+<div style="color: #7c3aed; font-weight: 700;">→ −10%</div>
+<div style="background: #7c3aed; padding: 0.5rem 0.8rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 0.7rem; color: #e9d5ff;">Final</div>
+<div style="font-weight: 800; color: white;">$72</div></div>
 </div>
-
+<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #7c3aed;">Note: 20% + 10% ≠ 30% off. Actual savings = 28%</div>
+</div>
 Black Friday: "70% OFF EVERYTHING!" You grab three items, head to checkout, and the total is somehow still $180. How is that possible? Understanding discount math protects your wallet from misleading sales tactics.
 
 ## Basic Discount Calculation

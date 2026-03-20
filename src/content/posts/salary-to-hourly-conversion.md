@@ -17,12 +17,20 @@ image: "https://images.pexels.com/photos/3305/numbers-money-calculating-calculat
 imageAlt: "Close-up of stacked coins and a calculator symbolizing financial strategy and budgeting."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Salary To Hourly Conversion</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; background: #eff6ff; border-radius: 12px; padding: 1.2rem; border: 1px solid #bfdbfe;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #1e40af; margin-bottom: 0.8rem;">Quick Salary ↔ Hourly Reference</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; font-size: 0.8rem;">
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #2563eb;">$15/hr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; color: #334155;">= $31,200/yr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #2563eb;">$25/hr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; color: #334155;">= $52,000/yr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #2563eb;">$35/hr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; color: #334155;">= $72,800/yr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 700; color: #2563eb;">$50/hr</div>
+<div style="background: white; padding: 0.4rem; border-radius: 6px; text-align: center; color: #334155;">= $104,000/yr</div>
 </div>
-
+<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #3b82f6; text-align: center;">Hourly × 2,080 = Annual | Annual ÷ 2,080 = Hourly</div>
+</div>
 Your offer letter says $72,000 per year. Your friend's contract says $38 an hour. Who makes more? It's not as obvious as it seems — and knowing how to convert between the two is essential for making smart career decisions.
 
 ## The Basic Formula

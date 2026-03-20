@@ -17,12 +17,26 @@ image: "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=co
 imageAlt: "Colorful produce aisle in a supermarket showcasing fresh apples with discount signage."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Unit Price Grocery Savings</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
-</div>
-
+<div style="margin: 2rem 0; background: #fef3c7; border-radius: 12px; padding: 1.2rem; border: 1px solid #fde68a;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #92400e; margin-bottom: 0.8rem;">Annual Savings from Unit Price Shopping</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5rem;">
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 0.65rem; color: #6b7280;">Save 10%</div>
+<div style="font-weight: 800; color: #d97706; font-size: 1rem;">$520</div>
+<div style="font-size: 0.6rem; color: #6b7280;">on $100/wk</div></div>
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 0.65rem; color: #6b7280;">Save 15%</div>
+<div style="font-weight: 800; color: #d97706; font-size: 1rem;">$780</div>
+<div style="font-size: 0.6rem; color: #6b7280;">on $100/wk</div></div>
+<div style="background: white; padding: 0.6rem; border-radius: 8px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 0.65rem; color: #6b7280;">Save 20%</div>
+<div style="font-weight: 800; color: #d97706; font-size: 1rem;">$1,040</div>
+<div style="font-size: 0.6rem; color: #6b7280;">on $100/wk</div></div>
+<div style="background: #92400e; padding: 0.6rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 0.65rem; color: #fde68a;">Save 25%</div>
+<div style="font-weight: 800; color: white; font-size: 1rem;">$1,300</div>
+<div style="font-size: 0.6rem; color: #fde68a;">on $100/wk</div></div>
+</div></div>
 Two bottles of ketchup. One is 20 oz for $3.49. The other is 32 oz for $4.99. Which is the better deal?
 
 Most people grab the bigger bottle assuming it's cheaper. But let's check: the 20 oz bottle is $0.175 per ounce, while the 32 oz bottle is $0.156 per ounce. The bigger bottle wins — but only by about 2 cents per ounce.

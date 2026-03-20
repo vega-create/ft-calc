@@ -17,26 +17,24 @@ image: "https://images.pexels.com/photos/7092509/pexels-photo-7092509.jpeg?auto=
 imageAlt: "College student focusing on math test, using a calculator at a desk."
 ---
 
-<div style="margin: 2rem 0; padding: 1.5rem; background: #faf5ff; border-radius: 12px; border: 1px solid #e9d5ff;">
-<div style="font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #111827;">💵 Quick Tipping Guide</div>
-<div style="display: flex; align-items: center; margin-bottom: 0.6rem;">
-<span style="width: 130px; font-size: 0.85rem; color: #374151;">Restaurant</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
-<div style="width: 60%; height: 100%; background: linear-gradient(90deg, #7c3aed, #a78bfa); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 600;">15–20%</div></div></div>
-<div style="display: flex; align-items: center; margin-bottom: 0.6rem;">
-<span style="width: 130px; font-size: 0.85rem; color: #374151;">Delivery</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
-<div style="width: 50%; height: 100%; background: linear-gradient(90deg, #8b5cf6, #c4b5fd); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 600;">15–20%</div></div></div>
-<div style="display: flex; align-items: center; margin-bottom: 0.6rem;">
-<span style="width: 130px; font-size: 0.85rem; color: #374151;">Barber/Salon</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
-<div style="width: 50%; height: 100%; background: linear-gradient(90deg, #a855f7, #d8b4fe); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 600;">15–20%</div></div></div>
-<div style="display: flex; align-items: center;">
-<span style="width: 130px; font-size: 0.85rem; color: #374151;">Takeout</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
-<div style="width: 33%; height: 100%; background: linear-gradient(90deg, #c084fc, #e9d5ff); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.7rem; color: #6b21a8; font-weight: 600;">10%</div></div></div>
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.7rem; background: #fef2f2; border-radius: 10px; text-align: center; border: 1px solid #fecaca;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #dc2626;">15%</div>
+<div style="font-size: 0.7rem; color: #991b1b; font-weight: 600;">Adequate</div>
+<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $7.50</div></div>
+<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #d97706;">18%</div>
+<div style="font-size: 0.7rem; color: #92400e; font-weight: 600;">Standard</div>
+<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $9.00</div></div>
+<div style="padding: 0.7rem; background: #d1fae5; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #059669;">20%</div>
+<div style="font-size: 0.7rem; color: #065f46; font-weight: 600;">Great Service</div>
+<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $10.00</div></div>
+<div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #2563eb;">25%</div>
+<div style="font-size: 0.7rem; color: #1e40af; font-weight: 600;">Exceptional</div>
+<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $12.50</div></div>
 </div>
-
 You're finishing a great dinner at a new restaurant. The bill comes to $86.40. You pull out your phone, open the calculator, and stare at the screen. Is 18% enough? Should it be on the pre-tax amount? What about the bartender who made your cocktails?
 
 Tipping in America can feel complicated — especially if you didn't grow up with it. This guide makes it simple.

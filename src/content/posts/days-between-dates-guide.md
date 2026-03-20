@@ -17,12 +17,20 @@ image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=
 imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Days Between Dates Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.7rem; background: #eff6ff; border-radius: 10px; text-align: center; border: 1px solid #bfdbfe;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #2563eb;">365</div>
+<div style="font-size: 0.7rem; color: #3b82f6; font-weight: 600;">Days in Year</div></div>
+<div style="padding: 0.7rem; background: #f0fdf4; border-radius: 10px; text-align: center; border: 1px solid #bbf7d0;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #16a34a;">366</div>
+<div style="font-size: 0.7rem; color: #22c55e; font-weight: 600;">Leap Year</div></div>
+<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #d97706;">90</div>
+<div style="font-size: 0.7rem; color: #b45309; font-weight: 600;">Avg Quarter</div></div>
+<div style="padding: 0.7rem; background: #fce7f3; border-radius: 10px; text-align: center; border: 1px solid #f9a8d4;">
+<div style="font-size: 1.3rem; font-weight: 800; color: #db2777;">52</div>
+<div style="font-size: 0.7rem; color: #9d174d; font-weight: 600;">Weeks/Year</div></div>
 </div>
-
 How many days until your vacation? How many weeks along is the pregnancy? How many business days until the project deadline? How old is your lease in months?
 
 Date calculations seem simple until you actually try to do them by hand. Months have different lengths, leap years sneak in, and counting across year boundaries gets messy fast.

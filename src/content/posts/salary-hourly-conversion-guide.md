@@ -17,12 +17,18 @@ image: "https://images.pexels.com/photos/3305/numbers-money-calculating-calculat
 imageAlt: "Close-up of stacked coins and a calculator symbolizing financial strategy and budgeting."
 ---
 
-<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
-<div style="font-weight: 700; color: #111827; font-size: 1rem;">Salary Hourly Conversion Guide</div>
-<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Annual Salary → Hourly Rate (2,080 hrs/year)</div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 30%; background: #94a3b8; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">$30K → $14.42/hr</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 50%; background: #60a5fa; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">$50K → $24.04/hr</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+<div style="width: 70%; background: #34d399; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">$75K → $36.06/hr</div></div>
+<div style="display: flex; align-items: center; gap: 0.5rem;">
+<div style="width: 100%; background: #8b5cf6; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">$100K → $48.08/hr</div></div>
+<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #94a3b8;">Formula: Annual Salary ÷ 2,080 = Hourly Rate</div>
 </div>
-
 "We're offering $55,000 a year." Sounds decent, but is it? When you break it down to an hourly rate and compare it against your living costs, the picture might look very different.
 
 Conversely, if you're hourly at $22/hour, what does that actually translate to as an annual income? Knowing how to convert between salary and hourly pay is essential for evaluating job offers, negotiating raises, and understanding your real earning power.

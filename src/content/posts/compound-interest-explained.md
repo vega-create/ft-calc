@@ -17,18 +17,30 @@ image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=
 imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
 
-<div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-radius: 12px; border: 1px solid #bbf7d0;">
-<div style="font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #111827;">💰 $10,000 at 8% — Simple vs Compound</div>
-<div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
-<span style="width: 120px; font-size: 0.85rem; color: #374151;">Simple (10yr)</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 26px; overflow: hidden;">
-<div style="width: 60%; height: 100%; background: linear-gradient(90deg, #9ca3af, #d1d5db); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: #374151; font-weight: 700;">$18,000</div></div></div>
-<div style="display: flex; align-items: center;">
-<span style="width: 120px; font-size: 0.85rem; color: #374151;">Compound (10yr)</span>
-<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 26px; overflow: hidden;">
-<div style="width: 72%; height: 100%; background: linear-gradient(90deg, #10b981, #34d399); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 700;">$21,589</div></div></div>
-</div>
-
+<div style="margin: 2rem 0; background: #f0fdf4; border-radius: 12px; padding: 1.2rem; border: 1px solid #bbf7d0;">
+<div style="font-weight: 700; font-size: 0.85rem; color: #166534; margin-bottom: 0.8rem;">$10,000 at 7% — Compound Interest Growth</div>
+<div style="display: flex; align-items: flex-end; gap: 0.4rem; height: 120px; padding-bottom: 0.3rem;">
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+<div style="font-size: 0.65rem; font-weight: 700; color: #166534;">$10K</div>
+<div style="width: 100%; background: #86efac; border-radius: 4px 4px 0 0; height: 20%;"></div>
+<div style="font-size: 0.6rem; color: #6b7280; margin-top: 2px;">Year 0</div></div>
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+<div style="font-size: 0.65rem; font-weight: 700; color: #166534;">$14K</div>
+<div style="width: 100%; background: #4ade80; border-radius: 4px 4px 0 0; height: 28%;"></div>
+<div style="font-size: 0.6rem; color: #6b7280; margin-top: 2px;">5 yr</div></div>
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+<div style="font-size: 0.65rem; font-weight: 700; color: #166534;">$20K</div>
+<div style="width: 100%; background: #22c55e; border-radius: 4px 4px 0 0; height: 40%;"></div>
+<div style="font-size: 0.6rem; color: #6b7280; margin-top: 2px;">10 yr</div></div>
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+<div style="font-size: 0.65rem; font-weight: 700; color: #166534;">$39K</div>
+<div style="width: 100%; background: #16a34a; border-radius: 4px 4px 0 0; height: 60%;"></div>
+<div style="font-size: 0.6rem; color: #6b7280; margin-top: 2px;">20 yr</div></div>
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+<div style="font-size: 0.65rem; font-weight: 700; color: #166534;">$76K</div>
+<div style="width: 100%; background: #15803d; border-radius: 4px 4px 0 0; height: 100%; color: white;"></div>
+<div style="font-size: 0.6rem; color: #6b7280; margin-top: 2px;">30 yr</div></div>
+</div></div>
 Sarah opened a savings account at 22 with $5,000 and forgot about it. At 52 — thirty years later — she checked the balance and found over $38,000. She hadn't added a single dollar. The secret? Compound interest at 7% annual return, quietly multiplying her money year after year.
 
 That's the power of compound interest. Let's break down exactly how it works.
