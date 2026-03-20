@@ -16,21 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "Artistic scattered white numbers on a bright red background, geometric and abstract."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem;">
-<div style="padding: 1rem; background: #eff6ff; border-radius: 10px; border: 1px solid #bfdbfe; text-align: center;">
-<div style="font-size: 1.3rem;">🎲</div>
-<div style="font-weight: 700; color: #2563eb; font-size: 0.85rem;">Pseudo-Random (PRNG)</div>
-<div style="font-size: 0.7rem; color: #6b7280; margin-top: 0.3rem;">Algorithm-based</div>
-<div style="font-size: 0.7rem; color: #6b7280;">Fast, reproducible</div>
-<div style="font-size: 0.7rem; color: #3b82f6; font-weight: 600; margin-top: 0.3rem;">Games, simulations</div></div>
-<div style="padding: 1rem; background: #f0fdf4; border-radius: 10px; border: 1px solid #bbf7d0; text-align: center;">
-<div style="font-size: 1.3rem;">🔐</div>
-<div style="font-weight: 700; color: #16a34a; font-size: 0.85rem;">True Random (TRNG)</div>
-<div style="font-size: 0.7rem; color: #6b7280; margin-top: 0.3rem;">Hardware/entropy-based</div>
-<div style="font-size: 0.7rem; color: #6b7280;">Unpredictable</div>
-<div style="font-size: 0.7rem; color: #16a34a; font-weight: 600; margin-top: 0.3rem;">Cryptography, lotteries</div></div>
-</div>
 You need to pick a random number between 1 and 100. Quick — what's the first number that comes to mind? If you said 37 or 73, you're not alone. Humans are terrible at being random. We gravitate toward odd numbers, avoid patterns, and unconsciously favor certain digits.
 
 That's why we need random number generators — and they're far more important than you might think.

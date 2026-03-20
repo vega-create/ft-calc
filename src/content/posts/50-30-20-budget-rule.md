@@ -16,20 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">50/30/20 Budget Split — On a $4,000 Monthly Income</div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-<div style="width: 50%; background: #3b82f6; color: white; padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600;">50% Needs — $2,000</div>
-</div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-<div style="width: 30%; background: #8b5cf6; color: white; padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600;">30% Wants — $1,200</div>
-</div>
-<div style="display: flex; align-items: center; gap: 0.5rem;">
-<div style="width: 20%; background: #10b981; color: white; padding: 0.5rem 0.8rem; border-radius: 8px; font-size: 0.8rem; font-weight: 600;">20% Save — $800</div>
-</div>
-<div style="margin-top: 0.6rem; font-size: 0.7rem; color: #94a3b8;">Needs: rent, groceries, insurance | Wants: dining, entertainment | Savings: emergency fund, retirement</div>
-</div>
 Marcus brings home $4,500 per month after taxes. He pays his bills, buys what he wants, and by the 25th, the account is nearly empty. Every month feels like a financial scramble. He doesn't overspend on anything crazy — but somehow, there's never enough left over.
 
 If this sounds familiar, the 50/30/20 rule might be exactly what you need. It's the simplest budgeting framework that actually works.

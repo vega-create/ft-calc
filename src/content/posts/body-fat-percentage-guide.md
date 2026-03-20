@@ -16,23 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/6256061/pexels-photo-6256061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "Focused teenager solving a math equation on a blackboard in a classroom setting."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">Body Fat % Ranges — Men vs Women</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
-<div style="text-align: center; font-weight: 600; font-size: 0.75rem; color: #2563eb;">♂ Men</div>
-<div style="text-align: center; font-weight: 600; font-size: 0.75rem; color: #db2777;">♀ Women</div>
-<div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>2-5%</b> Essential</div>
-<div style="background: #fce7f3; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>10-13%</b> Essential</div>
-<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>6-13%</b> Athletes</div>
-<div style="background: #d1fae5; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>14-20%</b> Athletes</div>
-<div style="background: #fef3c7; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>14-17%</b> Fitness</div>
-<div style="background: #fef3c7; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>21-24%</b> Fitness</div>
-<div style="background: #fed7aa; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>18-24%</b> Average</div>
-<div style="background: #fed7aa; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>25-31%</b> Average</div>
-<div style="background: #fecaca; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>25%+</b> Obese</div>
-<div style="background: #fecaca; padding: 0.4rem; border-radius: 6px; text-align: center; font-size: 0.75rem;"><b>32%+</b> Obese</div>
-</div></div>
 Jake weighed 185 pounds and his BMI said "overweight." His friend Ryan also weighed 185 at the same height — also "overweight" by BMI standards. But Jake was a competitive CrossFit athlete with visible abs, while Ryan hadn't exercised in years. Same weight, completely different bodies. That's why body fat percentage matters more than the number on the scale.
 
 ## What Is Body Fat Percentage?

@@ -16,18 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/5466815/pexels-photo-5466815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "A person's hand pressing keys on a calculator displaying 3750 on a wooden table, top view."
 ---
-
-<div style="margin: 2rem 0; background: #eff6ff; border-radius: 12px; padding: 1.2rem; border: 1px solid #bfdbfe;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #1e40af; margin-bottom: 0.8rem;">$300K Mortgage — Monthly Payment at Different Rates</div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 55%; background: #22c55e; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">3% → $1,265/mo</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 65%; background: #60a5fa; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">5% → $1,610/mo</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 80%; background: #f59e0b; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">7% → $1,996/mo</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem;">
-<div style="width: 100%; background: #ef4444; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">9% → $2,414/mo (+$731 vs 3%)</div></div>
-</div>
 Sarah and her husband found the perfect house listed at $350,000. The real estate agent told them to "just run the numbers," but neither of them had any idea how mortgage math actually works. If you've ever stared at a listing price wondering what your actual monthly payment would be, you're not alone.
 
 Understanding mortgage calculations doesn't require a finance degree — just a few key concepts and a good calculator.

@@ -16,20 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1.2rem; border: 1px solid #e2e8f0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.8rem;">BMR → TDEE: Activity Multipliers (Example: BMR = 1,600 cal)</div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 55%; background: #94a3b8; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Sedentary (×1.2) → 1,920</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 65%; background: #60a5fa; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Light Active (×1.375) → 2,200</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 75%; background: #34d399; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Moderate (×1.55) → 2,480</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
-<div style="width: 87%; background: #f59e0b; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Very Active (×1.725) → 2,760</div></div>
-<div style="display: flex; align-items: center; gap: 0.5rem;">
-<div style="width: 100%; background: #ef4444; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Extreme (×1.9) → 3,040</div></div>
-</div>
 Mike started a diet by eating 1,200 calories a day because that's what a random website recommended. Two weeks later he was exhausted, irritable, and hadn't lost a single pound. The problem wasn't willpower — he was eating way below his BMR, and his body was fighting back.
 
 Understanding the difference between BMR and TDEE is the foundation of any smart nutrition plan, whether you want to lose weight, gain muscle, or simply eat better.

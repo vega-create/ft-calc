@@ -16,21 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem;">
-<div style="padding: 1rem; background: #eff6ff; border-radius: 10px; border: 1px solid #bfdbfe; text-align: center;">
-<div style="font-size: 0.75rem; color: #6b7280;">What is X% of Y?</div>
-<div style="font-weight: 700; color: #2563eb; font-size: 0.85rem; margin: 0.3rem 0;">Y × (X/100)</div>
-<div style="font-size: 0.7rem; color: #3b82f6;">20% of 80 = <b>16</b></div></div>
-<div style="padding: 1rem; background: #f0fdf4; border-radius: 10px; border: 1px solid #bbf7d0; text-align: center;">
-<div style="font-size: 0.75rem; color: #6b7280;">X is what % of Y?</div>
-<div style="font-weight: 700; color: #16a34a; font-size: 0.85rem; margin: 0.3rem 0;">(X/Y) × 100</div>
-<div style="font-size: 0.7rem; color: #22c55e;">16 of 80 = <b>20%</b></div></div>
-<div style="padding: 1rem; background: #faf5ff; border-radius: 10px; border: 1px solid #e9d5ff; text-align: center;">
-<div style="font-size: 0.75rem; color: #6b7280;">% change?</div>
-<div style="font-weight: 700; color: #7c3aed; font-size: 0.85rem; margin: 0.3rem 0;">(New−Old)/Old×100</div>
-<div style="font-size: 0.7rem; color: #8b5cf6;">80→100 = <b>+25%</b></div></div>
-</div>
 Imagine you're at the store staring at a "35% off" sign, trying to figure out the actual price in your head. Or maybe your boss just told you that revenue grew "by 18% this quarter" and you're nodding along, not entirely sure what that means in real dollars. Percentages are everywhere — and once you understand the basics, they're surprisingly simple.
 
 This guide breaks down everything you need to know about calculating percentages, with clear examples you can actually use.

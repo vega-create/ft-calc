@@ -16,27 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
-
-<div style="margin: 2rem 0; background: #f0fdf4; border-radius: 12px; padding: 1.2rem; border: 1px solid #bbf7d0;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #166534; margin-bottom: 0.8rem;">$80 Item — How Much You Save at Each Discount</div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 0.4rem;">
-<div style="background: white; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
-<div style="font-size: 0.7rem; color: #6b7280;">10% off</div>
-<div style="font-weight: 800; color: #16a34a;">$72</div>
-<div style="font-size: 0.65rem; color: #dc2626;">save $8</div></div>
-<div style="background: white; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
-<div style="font-size: 0.7rem; color: #6b7280;">25% off</div>
-<div style="font-weight: 800; color: #16a34a;">$60</div>
-<div style="font-size: 0.65rem; color: #dc2626;">save $20</div></div>
-<div style="background: white; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
-<div style="font-size: 0.7rem; color: #6b7280;">40% off</div>
-<div style="font-weight: 800; color: #16a34a;">$48</div>
-<div style="font-size: 0.65rem; color: #dc2626;">save $32</div></div>
-<div style="background: white; padding: 0.5rem; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
-<div style="font-size: 0.7rem; color: #6b7280;">50% off</div>
-<div style="font-weight: 800; color: #16a34a;">$40</div>
-<div style="font-size: 0.65rem; color: #dc2626;">save $40</div></div>
-</div></div>
 Black Friday. The sign screams "60% OFF!" You grab the jacket, feeling like a genius. But was it really a deal, or was the "original price" inflated to make the discount look bigger?
 
 Knowing how to calculate discounts is a superpower that saves real money. Here's how to never fall for fake deals again.

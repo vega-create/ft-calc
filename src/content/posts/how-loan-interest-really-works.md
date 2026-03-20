@@ -16,19 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/5942520/pexels-photo-5942520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "A close-up of a calculator and US dollar banknotes, symbolizing financial calculation and budgeting."
 ---
-
-<div style="margin: 2rem 0; background: #fef2f2; border-radius: 12px; padding: 1.2rem; border: 1px solid #fecaca;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #991b1b; margin-bottom: 0.8rem;">$200,000 Mortgage at 7% — 30 Years</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; text-align: center;">
-<div style="background: white; padding: 0.8rem; border-radius: 8px;">
-<div style="font-size: 1.4rem; font-weight: 800; color: #2563eb;">$200K</div>
-<div style="font-size: 0.75rem; color: #6b7280;">Principal Borrowed</div></div>
-<div style="background: white; padding: 0.8rem; border-radius: 8px;">
-<div style="font-size: 1.4rem; font-weight: 800; color: #dc2626;">$279K</div>
-<div style="font-size: 0.75rem; color: #6b7280;">Total Interest Paid</div></div>
-</div>
-<div style="margin-top: 0.6rem; font-size: 0.7rem; color: #991b1b; text-align: center;">You pay 1.4× the home price in interest alone over 30 years</div>
-</div>
 You borrow $20,000 for a car at 6% interest over 5 years. Your monthly payment is $387. Seems reasonable, right? But by the end of the loan, you'll have paid $23,199 — over $3,000 more than you borrowed.
 
 That extra $3,199 is the true cost of borrowing, and most people never think about it when signing loan papers. Understanding how interest works puts you in control.

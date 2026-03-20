@@ -16,25 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/7092509/pexels-photo-7092509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "College student focusing on math test, using a calculator at a desk."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.5rem;">
-<div style="padding: 0.7rem; background: #fef2f2; border-radius: 10px; text-align: center; border: 1px solid #fecaca;">
-<div style="font-size: 1.2rem; font-weight: 800; color: #dc2626;">15%</div>
-<div style="font-size: 0.7rem; color: #991b1b; font-weight: 600;">Adequate</div>
-<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $7.50</div></div>
-<div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;">
-<div style="font-size: 1.2rem; font-weight: 800; color: #d97706;">18%</div>
-<div style="font-size: 0.7rem; color: #92400e; font-weight: 600;">Standard</div>
-<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $9.00</div></div>
-<div style="padding: 0.7rem; background: #d1fae5; border-radius: 10px; text-align: center; border: 1px solid #6ee7b7;">
-<div style="font-size: 1.2rem; font-weight: 800; color: #059669;">20%</div>
-<div style="font-size: 0.7rem; color: #065f46; font-weight: 600;">Great Service</div>
-<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $10.00</div></div>
-<div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;">
-<div style="font-size: 1.2rem; font-weight: 800; color: #2563eb;">25%</div>
-<div style="font-size: 0.7rem; color: #1e40af; font-weight: 600;">Exceptional</div>
-<div style="font-size: 0.65rem; color: #6b7280;">$50 bill → $12.50</div></div>
-</div>
 You're finishing a great dinner at a new restaurant. The bill comes to $86.40. You pull out your phone, open the calculator, and stare at the screen. Is 18% enough? Should it be on the pre-tax amount? What about the bartender who made your cocktails?
 
 Tipping in America can feel complicated — especially if you didn't grow up with it. This guide makes it simple.

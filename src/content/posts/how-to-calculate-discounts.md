@@ -16,24 +16,6 @@ faq:
 image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
-
-<div style="margin: 2rem 0; background: #faf5ff; border-radius: 12px; padding: 1.2rem; border: 1px solid #e9d5ff;">
-<div style="font-weight: 700; font-size: 0.85rem; color: #581c87; margin-bottom: 0.8rem;">Stacked Discounts: 20% + Extra 10% Off $100</div>
-<div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-<div style="background: white; padding: 0.5rem 0.8rem; border-radius: 8px; text-align: center; border: 1px solid #e9d5ff;">
-<div style="font-size: 0.7rem; color: #6b7280;">Original</div>
-<div style="font-weight: 800; color: #334155;">$100</div></div>
-<div style="color: #7c3aed; font-weight: 700;">→ −20%</div>
-<div style="background: white; padding: 0.5rem 0.8rem; border-radius: 8px; text-align: center; border: 1px solid #e9d5ff;">
-<div style="font-size: 0.7rem; color: #6b7280;">After 1st</div>
-<div style="font-weight: 800; color: #7c3aed;">$80</div></div>
-<div style="color: #7c3aed; font-weight: 700;">→ −10%</div>
-<div style="background: #7c3aed; padding: 0.5rem 0.8rem; border-radius: 8px; text-align: center;">
-<div style="font-size: 0.7rem; color: #e9d5ff;">Final</div>
-<div style="font-weight: 800; color: white;">$72</div></div>
-</div>
-<div style="margin-top: 0.5rem; font-size: 0.7rem; color: #7c3aed;">Note: 20% + 10% ≠ 30% off. Actual savings = 28%</div>
-</div>
 Black Friday: "70% OFF EVERYTHING!" You grab three items, head to checkout, and the total is somehow still $180. How is that possible? Understanding discount math protects your wallet from misleading sales tactics.
 
 ## Basic Discount Calculation
