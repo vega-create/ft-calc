@@ -16,6 +16,6 @@ export const siteConfig = {
   },
   adsense: {
     client: 'ca-pub-3493526929407874',
-    enabled: true, // AdSense 已開啟（送審用）
+    enabled: false, // AdSense 已開啟（送審用）
   },
 };
