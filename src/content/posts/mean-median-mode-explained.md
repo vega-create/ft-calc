@@ -13,7 +13,15 @@ faq:
     a: "Yes. If every value appears the same number of times, there is no mode. A dataset can also have multiple modes — if two values are equally most frequent, it's called bimodal."
   - q: "What is a weighted average?"
     a: "A weighted average gives different importance to different values. Your GPA is a weighted average — a grade in a 4-credit class counts twice as much as a grade in a 2-credit class. Weighted averages are more accurate when not all data points are equally important."
+image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Mean Median Mode Explained</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 If Bill Gates walks into a bar with 99 other people, the average person in that bar is a billionaire. Obviously, no one else actually got richer — but the mean income in the room just skyrocketed.
 

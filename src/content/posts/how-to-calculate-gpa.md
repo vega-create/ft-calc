@@ -13,7 +13,22 @@ faq:
     a: "Yes, but how much depends on how many credits you've completed. A freshman can move their GPA significantly in one semester. A senior with 120+ credits will see smaller changes per semester."
   - q: "What's the difference between weighted and unweighted GPA?"
     a: "Unweighted GPA uses the standard 4.0 scale. Weighted GPA gives extra points for honors or AP classes, so it can exceed 4.0 — sometimes going up to 5.0."
+image: "https://images.pexels.com/photos/7092509/pexels-photo-7092509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "College student focusing on math test, using a calculator at a desk."
 ---
+
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 0.5rem;">
+<div style="padding: 0.6rem; background: #f0fdf4; border-radius: 8px; text-align: center; border: 1px solid #bbf7d0;">
+<div style="font-weight: 800; color: #16a34a; font-size: 1.1rem;">A</div><div style="color: #6b7280; font-size: 0.7rem;">4.0</div></div>
+<div style="padding: 0.6rem; background: #eff6ff; border-radius: 8px; text-align: center; border: 1px solid #bfdbfe;">
+<div style="font-weight: 800; color: #2563eb; font-size: 1.1rem;">B</div><div style="color: #6b7280; font-size: 0.7rem;">3.0</div></div>
+<div style="padding: 0.6rem; background: #fefce8; border-radius: 8px; text-align: center; border: 1px solid #fef08a;">
+<div style="font-weight: 800; color: #ca8a04; font-size: 1.1rem;">C</div><div style="color: #6b7280; font-size: 0.7rem;">2.0</div></div>
+<div style="padding: 0.6rem; background: #fff7ed; border-radius: 8px; text-align: center; border: 1px solid #fed7aa;">
+<div style="font-weight: 800; color: #ea580c; font-size: 1.1rem;">D</div><div style="color: #6b7280; font-size: 0.7rem;">1.0</div></div>
+<div style="padding: 0.6rem; background: #fef2f2; border-radius: 8px; text-align: center; border: 1px solid #fecaca;">
+<div style="font-weight: 800; color: #dc2626; font-size: 1.1rem;">F</div><div style="color: #6b7280; font-size: 0.7rem;">0.0</div></div>
+</div>
 
 It's midway through your sophomore year and you just realized you need a 3.2 GPA to keep your scholarship. You have a pile of transcripts and grade reports, but no idea how to actually calculate the number. Sound familiar?
 

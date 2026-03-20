@@ -13,7 +13,15 @@ faq:
     a: "Yes, but the impact depends on how many credits you've already earned. A senior with 90 credits raising one semester's grades from B to A only moves the cumulative GPA by about 0.05-0.1 points."
   - q: "Do colleges look at the overall GPA or each semester?"
     a: "Most colleges review both your cumulative GPA and your grade trends. An upward trend (improving grades over time) is viewed positively, even if your overall GPA isn't perfect."
+image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Gpa Scale Explained</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Jessica had a 3.4 GPA and was convinced she couldn't get into a good college. Meanwhile, her friend Marcus had a 4.2 GPA. How is that even possible on a 4.0 scale? Understanding how GPA actually works — and what colleges really care about — can save you a lot of unnecessary stress.
 

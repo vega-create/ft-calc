@@ -13,7 +13,15 @@ faq:
     a: "Eating below your BMR is generally not recommended. Your body needs those baseline calories to function properly. Instead, eat between your BMR and TDEE to create a safe calorie deficit."
   - q: "How accurate are BMR calculators?"
     a: "Online BMR calculators using the Mifflin-St Jeor equation are accurate within about 10% for most people. For precise measurements, you'd need indirect calorimetry testing."
+image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Bmr Vs Tdee Explained</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Mike started a diet by eating 1,200 calories a day because that's what a random website recommended. Two weeks later he was exhausted, irritable, and hadn't lost a single pound. The problem wasn't willpower — he was eating way below his BMR, and his body was fighting back.
 

@@ -13,7 +13,28 @@ faq:
     a: "BMI = weight (kg) ÷ height (m)². In pounds and inches: BMI = (weight × 703) ÷ (height in inches)²."
   - q: "Should I use BMI to set health goals?"
     a: "BMI is a useful screening tool, but shouldn't be the only metric you track. Waist circumference, body fat percentage, blood pressure, and bloodwork give a much fuller picture of health."
+image: "https://images.pexels.com/photos/5184955/pexels-photo-5184955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A student calculates math equations using an orange calculator and notebook for study."
 ---
+
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.6rem;">
+<div style="padding: 0.8rem; background: #eff6ff; border-radius: 10px; border: 1px solid #bfdbfe; text-align: center;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #2563eb;">< 18.5</div>
+<div style="font-weight: 600; color: #3b82f6; font-size: 0.8rem;">Underweight</div>
+</div>
+<div style="padding: 0.8rem; background: #f0fdf4; border-radius: 10px; border: 1px solid #bbf7d0; text-align: center;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #16a34a;">18.5–24.9</div>
+<div style="font-weight: 600; color: #22c55e; font-size: 0.8rem;">Normal</div>
+</div>
+<div style="padding: 0.8rem; background: #fefce8; border-radius: 10px; border: 1px solid #fef08a; text-align: center;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #ca8a04;">25–29.9</div>
+<div style="font-weight: 600; color: #eab308; font-size: 0.8rem;">Overweight</div>
+</div>
+<div style="padding: 0.8rem; background: #fef2f2; border-radius: 10px; border: 1px solid #fecaca; text-align: center;">
+<div style="font-size: 1.2rem; font-weight: 800; color: #dc2626;">30+</div>
+<div style="font-weight: 600; color: #ef4444; font-size: 0.8rem;">Obese</div>
+</div>
+</div>
 
 You step on the scale at your annual checkup. The nurse types in your height and weight, and a moment later tells you your BMI is 27.3. "That puts you in the overweight category," she says. You leave feeling confused — you exercise regularly and feel healthy. What does this number actually mean?
 

@@ -13,7 +13,15 @@ faq:
     a: "Pseudo-random generators can theoretically be predicted if someone knows the algorithm and seed. That's why casinos and lotteries use hardware-based true random generators or heavily audited systems."
   - q: "What is a seed in random number generation?"
     a: "A seed is the starting value that initializes a pseudo-random number generator. The same seed always produces the same sequence of numbers, which is useful for reproducing results in scientific research."
+image: "https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Artistic scattered white numbers on a bright red background, geometric and abstract."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Random Number Generators Explained</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You need to pick a random number between 1 and 100. Quick — what's the first number that comes to mind? If you said 37 or 73, you're not alone. Humans are terrible at being random. We gravitate toward odd numbers, avoid patterns, and unconsciously favor certain digits.
 

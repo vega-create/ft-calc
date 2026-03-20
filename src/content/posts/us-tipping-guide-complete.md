@@ -13,7 +13,15 @@ faq:
     a: "Tipping on takeout is optional but increasingly common since COVID-19. 10-15% is appreciated for takeout, especially if the order is large or complex. For a quick pickup of a simple order, no tip is expected but a few dollars is a nice gesture."
   - q: "Can I tip with a credit card?"
     a: "Yes, but cash tips are generally preferred by service workers because they receive them immediately and in full. Some establishments deduct credit card processing fees from tips, though this practice varies by state law."
+image: "https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Chalkboard with a humorous incorrect math equation, ideal for educational settings."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Us Tipping Guide Complete</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You're visiting the US for the first time. The check arrives at the restaurant. Your meal was $47.50, and now you're staring at the tip line wondering if you're about to commit a social faux pas.
 

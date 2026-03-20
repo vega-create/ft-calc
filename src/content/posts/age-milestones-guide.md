@@ -13,7 +13,15 @@ faq:
     a: "Typically yes. If you were born on January 1, 2000, and today is January 1, 2026, you are exactly 26 years old. The birth date counts as day zero."
   - q: "How are leap years handled in age calculations?"
     a: "Leap years add one extra day (February 29) every four years. A precise age calculator accounts for all leap years between your birth date and today."
+image: "https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Chalkboard with a humorous incorrect math equation, ideal for educational settings."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Age Milestones Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 How old are you — really? Most people know their age in years, but can you say exactly how many months, weeks, or days you've been alive? And does it actually matter?
 

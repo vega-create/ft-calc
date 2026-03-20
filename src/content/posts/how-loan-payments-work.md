@@ -13,7 +13,15 @@ faq:
     a: "A 15-year mortgage has higher monthly payments but a lower interest rate and saves you a huge amount in total interest. A 30-year has lower monthly payments but costs much more overall."
   - q: "Should I pay off my loan early or invest the money?"
     a: "It depends on your interest rate. If your loan rate is higher than your expected investment return, pay off the loan. If your rate is low (under 4-5%), investing the extra money may yield better returns. But being debt-free also has psychological value."
+image: "https://images.pexels.com/photos/5942520/pexels-photo-5942520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A close-up of a calculator and US dollar banknotes, symbolizing financial calculation and budgeting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">How Loan Payments Work</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You just signed a 30-year mortgage for $300,000 at 7% interest. Your monthly payment is $1,996. Over 30 years, you'll pay a total of $718,527 — more than double the original loan amount. Wait, what?
 

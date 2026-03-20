@@ -13,7 +13,15 @@ faq:
     a: "Some do, some don't. Curving adjusts grades relative to class performance. A common method adds enough points so the class average hits a target (often a B or B-). Check your syllabus or ask your professor."
   - q: "What happens if I don't take the final?"
     a: "A missed final typically counts as a zero, which devastates your grade since finals are usually weighted 20-40% of your total grade. A zero on a 30%-weighted final drops an otherwise 90% student to a 63% — from an A to a D."
+image: "https://images.pexels.com/photos/6256237/pexels-photo-6256237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A teenager writes mathematical equations on a blackboard, focusing on geometry and trigonometry."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">What Grade Do I Need On Final</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 It's Week 12. You've gotten an 88 on the midterm, averaged 75 on homework, and scored 92 on the paper. Your final exam is worth 40% of the grade. Can you still get an A? And what's the minimum score you need to keep a B?
 

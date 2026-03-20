@@ -13,7 +13,29 @@ faq:
     a: "For food delivery, tip 15-20% or at least $3-5, whichever is more. In bad weather or for large orders, consider tipping 20%+."
   - q: "Is it rude not to tip in America?"
     a: "In the US, many service workers earn below minimum wage and depend on tips as a significant portion of their income. Not tipping at a sit-down restaurant is generally considered very rude."
+image: "https://images.pexels.com/photos/7092509/pexels-photo-7092509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "College student focusing on math test, using a calculator at a desk."
 ---
+
+<div style="margin: 2rem 0; padding: 1.5rem; background: #faf5ff; border-radius: 12px; border: 1px solid #e9d5ff;">
+<div style="font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #111827;">💵 Quick Tipping Guide</div>
+<div style="display: flex; align-items: center; margin-bottom: 0.6rem;">
+<span style="width: 130px; font-size: 0.85rem; color: #374151;">Restaurant</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
+<div style="width: 60%; height: 100%; background: linear-gradient(90deg, #7c3aed, #a78bfa); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 600;">15–20%</div></div></div>
+<div style="display: flex; align-items: center; margin-bottom: 0.6rem;">
+<span style="width: 130px; font-size: 0.85rem; color: #374151;">Delivery</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
+<div style="width: 50%; height: 100%; background: linear-gradient(90deg, #8b5cf6, #c4b5fd); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 600;">15–20%</div></div></div>
+<div style="display: flex; align-items: center; margin-bottom: 0.6rem;">
+<span style="width: 130px; font-size: 0.85rem; color: #374151;">Barber/Salon</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
+<div style="width: 50%; height: 100%; background: linear-gradient(90deg, #a855f7, #d8b4fe); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 600;">15–20%</div></div></div>
+<div style="display: flex; align-items: center;">
+<span style="width: 130px; font-size: 0.85rem; color: #374151;">Takeout</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 24px; overflow: hidden;">
+<div style="width: 33%; height: 100%; background: linear-gradient(90deg, #c084fc, #e9d5ff); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.7rem; color: #6b21a8; font-weight: 600;">10%</div></div></div>
+</div>
 
 You're finishing a great dinner at a new restaurant. The bill comes to $86.40. You pull out your phone, open the calculator, and stare at the screen. Is 18% enough? Should it be on the pre-tax amount? What about the bartender who made your cocktails?
 

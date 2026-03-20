@@ -13,7 +13,15 @@ faq:
     a: "Not necessarily. Calorie counting is a useful tool for specific goals like weight loss or muscle gain, but many people maintain a healthy weight through intuitive eating and portion awareness. It's one approach, not the only one."
   - q: "Are all calories the same?"
     a: "In terms of pure energy, yes — a calorie is a calorie. But in terms of nutrition, satiety, and health effects, the source matters enormously. 300 calories of chicken and vegetables keeps you full far longer than 300 calories of candy."
+image: "https://images.pexels.com/photos/7092398/pexels-photo-7092398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A student covertly uses a cheat sheet hidden in a calculator during an exam."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">How Many Calories Do You Need</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Emily started a new diet and cut down to 1,200 calories a day. She was hungry all the time, couldn't focus at work, and quit after two weeks. The problem wasn't willpower — she was eating far less than her body actually needed.
 

@@ -13,7 +13,15 @@ faq:
     a: "It depends on your classification. 'Non-exempt' salaried employees must receive overtime pay (1.5x for hours over 40/week). 'Exempt' employees — typically those earning above $43,888/year in professional roles — generally don't receive overtime pay."
   - q: "What is the federal minimum wage in 2026?"
     a: "The federal minimum wage is $7.25/hour, unchanged since 2009. However, most states have higher minimums. As of 2026, Washington state leads at over $16/hour, and many cities have local minimums above $18/hour."
+image: "https://images.pexels.com/photos/3305/numbers-money-calculating-calculation.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of stacked coins and a calculator symbolizing financial strategy and budgeting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Salary Hourly Conversion Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 "We're offering $55,000 a year." Sounds decent, but is it? When you break it down to an hourly rate and compare it against your living costs, the picture might look very different.
 

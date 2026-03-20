@@ -13,7 +13,15 @@ faq:
     a: "No. Compound interest applies to any investment that reinvests returns — stocks (via dividend reinvestment), bonds, mutual funds, ETFs, and retirement accounts all benefit from compounding."
   - q: "Can compound interest work against me?"
     a: "Yes. Credit card debt and loans also compound. A $5,000 credit card balance at 24% APR grows to over $8,900 in just 3 years if you only make minimum payments."
+image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Power Of Compound Interest</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Here's a mind-bending fact: if you invested just $100 per month starting at age 25 with a 10% average annual return, you'd have over $1.1 million by age 65. Wait until 35 to start the same investment, and you'd end up with only about $395,000. That 10-year delay cost you over $700,000 — even though you only missed $12,000 in actual contributions.
 

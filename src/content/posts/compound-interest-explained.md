@@ -13,7 +13,21 @@ faq:
     a: "With annual compounding, $10,000 at 7% for 10 years grows to approximately $19,672. That's nearly double your original investment."
   - q: "Does compound interest work against me with debt?"
     a: "Yes. Credit card debt compounds too — unpaid interest gets added to your balance, and you start paying interest on interest. That's why high-interest debt is so expensive."
+image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
+
+<div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-radius: 12px; border: 1px solid #bbf7d0;">
+<div style="font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #111827;">💰 $10,000 at 8% — Simple vs Compound</div>
+<div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+<span style="width: 120px; font-size: 0.85rem; color: #374151;">Simple (10yr)</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 26px; overflow: hidden;">
+<div style="width: 60%; height: 100%; background: linear-gradient(90deg, #9ca3af, #d1d5db); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: #374151; font-weight: 700;">$18,000</div></div></div>
+<div style="display: flex; align-items: center;">
+<span style="width: 120px; font-size: 0.85rem; color: #374151;">Compound (10yr)</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 26px; overflow: hidden;">
+<div style="width: 72%; height: 100%; background: linear-gradient(90deg, #10b981, #34d399); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; color: white; font-weight: 700;">$21,589</div></div></div>
+</div>
 
 Sarah opened a savings account at 22 with $5,000 and forgot about it. At 52 — thirty years later — she checked the balance and found over $38,000. She hadn't added a single dollar. The secret? Compound interest at 7% annual return, quietly multiplying her money year after year.
 

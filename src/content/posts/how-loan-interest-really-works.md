@@ -13,7 +13,15 @@ faq:
     a: "Both help, but paying extra toward principal is slightly more efficient because it directly reduces the balance that interest is calculated on. Always specify that extra payments should be applied to principal, not toward future payments."
   - q: "What is a good interest rate for a personal loan?"
     a: "For borrowers with excellent credit (720+), rates of 6-10% are competitive in 2026. Good credit (680-719) typically sees 10-15%. Fair credit (640-679) may face 15-25%. Below 640, rates can exceed 25%, and you should explore alternatives."
+image: "https://images.pexels.com/photos/5942520/pexels-photo-5942520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A close-up of a calculator and US dollar banknotes, symbolizing financial calculation and budgeting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">How Loan Interest Really Works</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You borrow $20,000 for a car at 6% interest over 5 years. Your monthly payment is $387. Seems reasonable, right? But by the end of the loan, you'll have paid $23,199 — over $3,000 more than you borrowed.
 

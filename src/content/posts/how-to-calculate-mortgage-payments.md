@@ -13,7 +13,15 @@ faq:
     a: "Yes, a 30-year mortgage has lower monthly payments than a 15-year mortgage. However, you'll pay significantly more total interest over the life of the longer loan."
   - q: "Should I make extra payments on my mortgage?"
     a: "Extra payments reduce your principal faster, saving thousands in interest over time. Even one additional payment per year can shave years off a 30-year mortgage."
+image: "https://images.pexels.com/photos/5466815/pexels-photo-5466815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A person's hand pressing keys on a calculator displaying 3750 on a wooden table, top view."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">How To Calculate Mortgage Payments</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Sarah and her husband found the perfect house listed at $350,000. The real estate agent told them to "just run the numbers," but neither of them had any idea how mortgage math actually works. If you've ever stared at a listing price wondering what your actual monthly payment would be, you're not alone.
 

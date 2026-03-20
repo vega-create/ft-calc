@@ -13,7 +13,15 @@ faq:
     a: "Convert both to the same unit. For hourly jobs, factor in overtime potential and whether benefits like health insurance are included. A $25/hour job with benefits might be worth more than a $60,000 salary without them."
   - q: "What is a good hourly rate for freelancers?"
     a: "Freelancers should charge 25-50% more than an equivalent employee hourly rate to cover self-employment tax, health insurance, no paid time off, and business expenses. If a job pays $30/hour as an employee, freelancers should charge $38-45/hour."
+image: "https://images.pexels.com/photos/3305/numbers-money-calculating-calculation.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of stacked coins and a calculator symbolizing financial strategy and budgeting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Salary To Hourly Conversion</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Your offer letter says $72,000 per year. Your friend's contract says $38 an hour. Who makes more? It's not as obvious as it seems — and knowing how to convert between the two is essential for making smart career decisions.
 

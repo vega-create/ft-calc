@@ -13,7 +13,15 @@ faq:
     a: "Count the number of full months between the dates, then handle the remaining days separately. For example, January 15 to April 10 is 2 full months (Feb 15 to Mar 15 to Apr 15 would be 3, but we stop at Apr 10) — so it's 2 months and 26 days."
   - q: "What is an epoch date?"
     a: "In computing, the epoch is January 1, 1970 (Unix time). Computers track dates as seconds since this point. As of 2026, we're at about 1.77 billion seconds since the epoch."
+image: "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A hand writing a mathematical equation on a whiteboard with a marker."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Days Between Dates Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 How many days until your vacation? How many weeks along is the pregnancy? How many business days until the project deadline? How old is your lease in months?
 

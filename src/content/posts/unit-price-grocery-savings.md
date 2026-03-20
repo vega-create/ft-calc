@@ -13,7 +13,15 @@ faq:
     a: "Generic and store-brand products are typically 20-40% cheaper than name brands. For staples like flour, sugar, salt, and canned goods, the quality is often identical since many generics are made in the same factories as name brands."
   - q: "How much can I save by comparing unit prices?"
     a: "Studies show that consistent unit price comparison saves the average family $500-$1,500 per year on groceries. The savings are largest on frequently purchased items like cereal, snacks, beverages, and cleaning supplies."
+image: "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Colorful produce aisle in a supermarket showcasing fresh apples with discount signage."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Unit Price Grocery Savings</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Two bottles of ketchup. One is 20 oz for $3.49. The other is 32 oz for $4.99. Which is the better deal?
 

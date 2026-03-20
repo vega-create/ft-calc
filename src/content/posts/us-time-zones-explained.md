@@ -13,7 +13,15 @@ faq:
     a: "In the US, clocks spring forward on the second Sunday of March and fall back on the first Sunday of November. Arizona and Hawaii do not observe daylight saving time."
   - q: "What does UTC mean?"
     a: "UTC (Coordinated Universal Time) is the global time standard that all time zones are measured from. Eastern Standard Time is UTC-5, meaning 5 hours behind UTC."
+image: "https://images.pexels.com/photos/6325934/pexels-photo-6325934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A mathematics instructor explaining algebraic equations on a whiteboard in a classroom setting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Us Time Zones Explained</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You're scheduling a video call with your team — one person is in New York, another in Chicago, and a third in Los Angeles. What time works for everyone? If you've ever stared at your screen trying to do this math, you're not alone.
 

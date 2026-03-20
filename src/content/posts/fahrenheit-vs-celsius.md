@@ -13,7 +13,26 @@ faq:
     a: "-40 degrees is the same in both scales. -40°F = -40°C. It's the only point where the two scales intersect."
   - q: "Why does the US use Fahrenheit?"
     a: "The US adopted Fahrenheit in the colonial era from Britain. While most countries switched to Celsius as part of the metric system, the US never made the full transition. Fahrenheit remains standard for weather and cooking in the US."
+image: "https://images.pexels.com/photos/4022334/pexels-photo-4022334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Detailed image of a glass thermometer displaying temperature in degrees."
 ---
+
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem;">
+<div style="padding: 1rem; background: #eff6ff; border-radius: 10px; border: 1px solid #bfdbfe; text-align: center;">
+<div style="font-size: 1.5rem;">🌡️</div>
+<div style="font-weight: 700; color: #2563eb; font-size: 0.9rem;">Fahrenheit</div>
+<div style="color: #6b7280; font-size: 0.75rem; margin-top: 0.3rem;">Water boils: 212°F</div>
+<div style="color: #6b7280; font-size: 0.75rem;">Water freezes: 32°F</div>
+<div style="color: #6b7280; font-size: 0.75rem;">Body temp: 98.6°F</div>
+</div>
+<div style="padding: 1rem; background: #fef2f2; border-radius: 10px; border: 1px solid #fecaca; text-align: center;">
+<div style="font-size: 1.5rem;">🌡️</div>
+<div style="font-weight: 700; color: #dc2626; font-size: 0.9rem;">Celsius</div>
+<div style="color: #6b7280; font-size: 0.75rem; margin-top: 0.3rem;">Water boils: 100°C</div>
+<div style="color: #6b7280; font-size: 0.75rem;">Water freezes: 0°C</div>
+<div style="color: #6b7280; font-size: 0.75rem;">Body temp: 37°C</div>
+</div>
+</div>
 
 You're traveling in Europe and the weather app says it's 22°C outside. Is that warm enough for shorts? Or should you grab a jacket? If you grew up with Fahrenheit, Celsius can feel like a foreign language.
 

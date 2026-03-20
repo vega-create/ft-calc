@@ -13,7 +13,15 @@ faq:
     a: "Daniel Fahrenheit's scale was widely adopted in English-speaking countries in the 1700s. When most of the world switched to Celsius in the mid-20th century, the US chose not to mandate the change, though Celsius is used in US science and medicine."
   - q: "What's the fastest way to estimate Celsius to Fahrenheit?"
     a: "Double the Celsius number and add 30. It's not exact but works well for everyday temperatures. Example: 20°C → (20×2)+30 = 70°F (actual: 68°F). Close enough for deciding what to wear."
+image: "https://images.pexels.com/photos/4022334/pexels-photo-4022334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Detailed image of a glass thermometer displaying temperature in degrees."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Fahrenheit Celsius Quick Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Is 25°C warm enough for shorts? Is 180°C the right oven temperature for chicken? What does it mean when the weather app abroad says "it feels like -5"?
 

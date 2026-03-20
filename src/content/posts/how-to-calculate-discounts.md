@@ -13,7 +13,15 @@ faq:
     a: "Subtract the sale price from the original price, divide by the original price, multiply by 100. Example: was $120, now $84 → (120-84) ÷ 120 × 100 = 30% off."
   - q: "Is it a good deal if it's marked up before being discounted?"
     a: "Watch out for inflated 'original' prices. Retailers sometimes raise prices before a sale to make discounts look bigger. Compare the sale price to what you'd normally expect to pay, not just the listed original price."
+image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">How To Calculate Discounts</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Black Friday: "70% OFF EVERYTHING!" You grab three items, head to checkout, and the total is somehow still $180. How is that possible? Understanding discount math protects your wallet from misleading sales tactics.
 

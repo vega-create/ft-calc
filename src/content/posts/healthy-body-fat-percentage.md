@@ -13,7 +13,15 @@ faq:
     a: "Women's bodies require higher essential fat for reproductive health, hormone production, and breast tissue. This biological difference means a healthy woman at 25% body fat and a healthy man at 15% body fat are at equivalent fitness levels."
   - q: "What is the most accurate way to measure body fat?"
     a: "DEXA (Dual-Energy X-ray Absorptiometry) scans are the gold standard, accurate to within 1-2%. Hydrostatic weighing is also very accurate. Calipers are reasonably accurate with a skilled tester. Bathroom smart scales using bioelectrical impedance are convenient but can vary by 3-5%."
+image: "https://images.pexels.com/photos/7697690/pexels-photo-7697690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Two young adults work together solving equations on a chalkboard, fostering education and teamwork."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Healthy Body Fat Percentage</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Step on a scale and you get one number. But that number doesn't tell you whether your 180 pounds is mostly muscle or mostly fat. Two people can weigh exactly the same but look completely different and have vastly different health risks.
 

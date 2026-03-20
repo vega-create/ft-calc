@@ -13,7 +13,15 @@ faq:
     a: "Not always. Calculate the unit price (total price ÷ quantity) to compare. Sometimes the smaller size has a lower unit price during sales, or the bigger size has excess you'll waste."
   - q: "What does 'up to 70% off' really mean?"
     a: "It means a few clearance items might be 70% off, but most items will be 20-40% off. 'Up to' is a marketing tactic — the headline discount usually applies to a tiny fraction of merchandise."
+image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">How To Calculate Discounts Like A Pro</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Black Friday. The sign screams "60% OFF!" You grab the jacket, feeling like a genius. But was it really a deal, or was the "original price" inflated to make the discount look bigger?
 

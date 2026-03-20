@@ -13,7 +13,25 @@ faq:
     a: "In high-cost cities, the 50% needs category may not be realistic. Consider adjusting to 60/20/20 or 70/20/10 while working on increasing income. The key is having a system."
   - q: "Does the 50/30/20 rule work for everyone?"
     a: "It's a great starting point, but not one-size-fits-all. People with high debt, low income, or aggressive savings goals may need different ratios. The principle of intentional allocation is what matters most."
+image: "https://images.pexels.com/photos/5310565/pexels-photo-5310565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of a hand writing '+50%' on a whiteboard, conveying education or business concepts."
 ---
+
+<div style="margin: 2rem 0; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid #e5e7eb;">
+<div style="font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #111827;">📊 The 50/30/20 Budget Breakdown</div>
+<div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+<span style="width: 100px; font-size: 0.85rem; color: #374151; font-weight: 600;">Needs</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 28px; overflow: hidden;">
+<div style="width: 50%; height: 100%; background: linear-gradient(90deg, #3b82f6, #60a5fa); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 0.8rem; color: white; font-weight: 700;">50%</div></div></div>
+<div style="display: flex; align-items: center; margin-bottom: 0.8rem;">
+<span style="width: 100px; font-size: 0.85rem; color: #374151; font-weight: 600;">Wants</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 28px; overflow: hidden;">
+<div style="width: 30%; height: 100%; background: linear-gradient(90deg, #8b5cf6, #a78bfa); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 0.8rem; color: white; font-weight: 700;">30%</div></div></div>
+<div style="display: flex; align-items: center;">
+<span style="width: 100px; font-size: 0.85rem; color: #374151; font-weight: 600;">Savings</span>
+<div style="flex: 1; background: #f3f4f6; border-radius: 6px; height: 28px; overflow: hidden;">
+<div style="width: 20%; height: 100%; background: linear-gradient(90deg, #10b981, #34d399); border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 0.8rem; color: white; font-weight: 700;">20%</div></div></div>
+</div>
 
 Marcus brings home $4,500 per month after taxes. He pays his bills, buys what he wants, and by the 25th, the account is nearly empty. Every month feels like a financial scramble. He doesn't overspend on anything crazy — but somehow, there's never enough left over.
 

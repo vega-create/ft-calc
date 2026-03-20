@@ -13,7 +13,15 @@ faq:
     a: "Most US grocery stores display the unit price on the shelf label, usually in smaller text below the item price. It typically shows price per ounce, per pound, or per count."
   - q: "How do I calculate unit price myself?"
     a: "Divide the total price by the total quantity. For example, a 32 oz bottle of juice for $3.84 has a unit price of $3.84 ÷ 32 = $0.12 per ounce."
+image: "https://images.pexels.com/photos/3305/numbers-money-calculating-calculation.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Close-up of stacked coins and a calculator symbolizing financial strategy and budgeting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Unit Price Comparison Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You're standing in the cereal aisle staring at two boxes of the same brand. The 18 oz box is $4.29. The 24 oz box is $5.49. Which one is the better deal?
 

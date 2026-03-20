@@ -13,7 +13,15 @@ faq:
     a: "Countries that were historically influenced by Britain (US, UK, Myanmar) use miles. Most of the world uses kilometers as part of the metric system. The UK uniquely uses miles for road distances but metric for most other measurements."
   - q: "What's the easiest way to estimate km to miles?"
     a: "Multiply kilometers by 0.6 for a quick estimate. So 100 km is roughly 60 miles. For better accuracy, multiply by 0.621."
+image: "https://images.pexels.com/photos/35970041/pexels-photo-35970041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Detailed image of a ruler and pencil marking 50mm on graph paper."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Length Conversion Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You're traveling in Europe and the road sign says 120 km to your destination. How far is that in miles? Or you're buying a couch online and it's listed as 2.1 meters long. Will it fit in your living room?
 

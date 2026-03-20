@@ -13,7 +13,15 @@ faq:
     a: "A liter of water at 4°C weighs almost exactly 1 kilogram. Common objects close to 1 kg include a standard pineapple, a hardcover dictionary, or two cans of soup."
   - q: "Is a stone still used as a unit of weight?"
     a: "Yes, in the UK and Ireland, body weight is often expressed in stones (1 stone = 14 pounds = 6.35 kg). A 154-pound person weighs 11 stone. It's rarely used outside the British Isles."
+image: "https://images.pexels.com/photos/3986613/pexels-photo-3986613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "A person writes mathematical equations in a notebook using a ruler and pencil, focused on solving problems."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Weight Conversion Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 You're at the gym in another country. The dumbbell rack shows 20 kg. Is that heavy or light? Or you're ordering something online from Europe, and the shipping calculator wants your package weight in kilograms. If you grew up with pounds, these conversions don't come naturally.
 

@@ -13,7 +13,15 @@ faq:
     a: "Women's bodies require higher essential fat (10-13%) compared to men (2-5%) for hormone production, reproductive health, and organ protection. This biological difference is completely normal."
   - q: "Is body fat percentage better than BMI?"
     a: "Body fat percentage gives a more accurate picture of health than BMI because it distinguishes between fat and muscle. A muscular person can have a high BMI but low body fat, which BMI misses entirely."
+image: "https://images.pexels.com/photos/6256061/pexels-photo-6256061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+imageAlt: "Focused teenager solving a math equation on a blackboard in a classroom setting."
 ---
+
+<div style="margin: 2rem 0; padding: 1.2rem; background: linear-gradient(135deg, #eff6ff, #f0fdf4); border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+<div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📐</div>
+<div style="font-weight: 700; color: #111827; font-size: 1rem;">Body Fat Percentage Guide</div>
+<div style="color: #6b7280; font-size: 0.8rem; margin-top: 0.3rem;">Quick Reference Guide</div>
+</div>
 
 Jake weighed 185 pounds and his BMI said "overweight." His friend Ryan also weighed 185 at the same height — also "overweight" by BMI standards. But Jake was a competitive CrossFit athlete with visible abs, while Ryan hadn't exercised in years. Same weight, completely different bodies. That's why body fat percentage matters more than the number on the scale.
 
