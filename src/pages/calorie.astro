@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import CalorieCalc from '../components/tools/CalorieCalc';
 const faq = [
-  { q: "How many calories to lose weight?", a: "A safe deficit is 500-1000 calories below maintenance, resulting in 1-2 lbs/week loss. Never go below 1200 without medical supervision." },
-  { q: "What is BMR?", a: "Basal Metabolic Rate is the calories your body burns at complete rest for basic functions like breathing and circulation." }
+  { q: "What is BMR and how is it different from TDEE?", a: "BMR (Basal Metabolic Rate) is the energy your body burns at complete rest just to keep organs, breathing, and circulation running. TDEE (Total Daily Energy Expenditure) is your BMR multiplied by an activity factor, so it also includes movement, exercise, and digestion. TDEE is the number that reflects what you actually burn in a day." },
+  { q: "Which formula does this calculator use?", a: "It uses the Mifflin-St Jeor equation, currently considered the most accurate for the general population. For men: BMR = 10 × weight(kg) + 6.25 × height(cm) − 5 × age + 5. For women the final constant is −161 instead of +5." },
+  { q: "How many calories should I eat to lose weight?", a: "A deficit of about 500 calories per day below your TDEE typically yields roughly 1 lb (0.45 kg) of fat loss per week, since a pound of fat holds about 3,500 calories. A 1,000-calorie deficit targets about 2 lb per week, but going too aggressive can cost muscle and energy — most guidance advises not dropping below about 1,200 (women) or 1,500 (men) without professional supervision." },
+  { q: "What do the activity levels mean?", a: "They are multipliers on your BMR: sedentary ×1.2 (desk job, little exercise), lightly active ×1.375 (1-3 days/week), moderately active ×1.55 (3-5 days), very active ×1.725 (6-7 days), and extra active ×1.9 (hard daily training or a physical job). Choosing the right level is the biggest factor in an accurate estimate." },
+  { q: "How many calories to gain weight or build muscle?", a: "Eat above your TDEE. A surplus of 250-500 calories per day supports a lean gain of about 0.5-1 lb per week while limiting fat gain, especially when paired with resistance training and adequate protein." }
 ];
 ---
 <ToolLayout title="Calorie Calculator" description="Estimate daily calorie needs based on age, weight, height, and activity level." slug="calorie" faq={faq}>
   <CalorieCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Calorie Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Estimate daily calorie needs based on age, weight, height, and activity level. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>How Your Calorie Needs Are Calculated</h2>
+    <p>The calculator works in two steps. First it estimates your Basal Metabolic Rate with the Mifflin-St Jeor equation — for men <code>BMR = 10 × weight(kg) + 6.25 × height(cm) − 5 × age + 5</code>, and for women the same equation ending in <code>− 161</code>. Then it multiplies BMR by an activity factor to produce your Total Daily Energy Expenditure (TDEE), the calories you burn on a typical day.</p>
+
+    <h2>Understanding BMR, TDEE, and Activity Factors</h2>
+    <p>Your BMR alone often accounts for 60-70% of the calories you burn. The remainder comes from movement, formal exercise, and the energy used to digest food. The activity multipliers range from <code>1.2</code> for sedentary to <code>1.9</code> for extremely active. Because these factors span a wide range, an honest assessment of your week matters: overstating activity is the most common reason a plan stalls.</p>
+
+    <h2>Using Calories for Weight Goals</h2>
+    <p>Weight change is driven by energy balance. Eating below your TDEE creates a deficit and your body draws on stored fat; eating above it creates a surplus for growth. Because roughly 3,500 calories equal about one pound of body fat, a steady 500-calorie daily deficit projects to about 1 lb per week. Gradual changes of 0.5-1% of body weight per week are more sustainable and better preserve muscle than crash dieting.</p>
+
+    <h2>Accuracy and a Note on Health</h2>
+    <p>These equations are population estimates: real metabolism varies with genetics, muscle mass, hormones, medications, and non-exercise activity, so treat the number as a starting point and adjust based on how your weight actually trends over 2-4 weeks. This tool is for general education, not medical advice — if you are pregnant, managing a health condition, or planning a significant diet change, consult a doctor or registered dietitian first.</p>
   </Fragment>
 </ToolLayout>

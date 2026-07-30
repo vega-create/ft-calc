@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import LengthCalc from '../components/tools/LengthCalc';
 const faq = [
-  { q: "How many centimeters in an inch?", a: "One inch equals exactly 2.54 centimeters. This is a defined international standard." },
-  { q: "How do I convert feet and inches to cm?", a: "Convert to total inches first (feet x 12 + inches), then multiply by 2.54 to get centimeters." }
+  { q: "How many centimeters are in an inch?", a: "One inch equals exactly 2.54 centimeters — a defined international standard, not an approximation. So 10 inches = 25.4 cm, and to reverse it, divide centimeters by 2.54 (for example, 30 cm ≈ 11.81 inches)." },
+  { q: "How do I convert feet and inches to centimeters?", a: "First convert to total inches with feet × 12 + inches, then multiply by 2.54. A person 5 ft 9 in tall is (5 × 12 + 9) = 69 inches, and 69 × 2.54 = 175.3 cm." },
+  { q: "How many meters are in a mile?", a: "One mile is exactly 1,609.344 meters, or about 1.609 kilometers. Conversely, 1 kilometer is about 0.621 miles, which is why a 5K race is roughly 3.1 miles." },
+  { q: "What is the difference between a yard and a meter?", a: "They are close but not equal: 1 yard = 0.9144 meters, so a meter is about 9.4% longer than a yard (1 m ≈ 1.094 yd). On a sports field the gap adds up — 100 meters is about 109.4 yards." },
+  { q: "How do metric length units relate to each other?", a: "Metric units scale in powers of ten: 1 km = 1,000 m, 1 m = 100 cm, and 1 cm = 10 mm. That means moving between them is just shifting the decimal point, unlike the fixed but irregular ratios in the imperial system." }
 ];
 ---
 <ToolLayout title="Length Converter" description="Convert between mm, cm, m, km, inches, feet, yards, and miles." slug="length" faq={faq}>
   <LengthCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Length Converter</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Convert between mm, cm, m, km, inches, feet, yards, and miles. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>How the Length Converter Works</h2>
+    <p>Every unit is converted through a single base unit — the meter. The tool converts your input to meters using a fixed factor, then divides by the factor for the target unit. Converting 3 feet to centimeters runs <code>3 ft × 0.3048 = 0.9144 m</code>, then <code>0.9144 ÷ 0.01 = 91.44 cm</code>. Routing every conversion through one base unit keeps results consistent and fully reversible.</p>
+
+    <h2>Metric vs Imperial Systems</h2>
+    <p>The metric system (mm, cm, m, km) scales cleanly in powers of ten, so conversions are just decimal shifts: 1 m = 100 cm = 1,000 mm. The imperial system uses fixed but uneven steps: <code>1 ft = 12 in</code>, <code>1 yd = 3 ft</code>, and <code>1 mile = 5,280 ft</code>. The bridge between the two systems is the exact definition <code>1 inch = 2.54 cm</code>, from which every other cross-system factor is derived.</p>
+
+    <h2>Common Conversions in Practice</h2>
+    <p>Height is stated in feet and inches in the US but centimeters elsewhere — 6 ft is 182.9 cm. Running distances mix systems: a 10K is 6.21 miles, and a marathon's 42.195 km is 26.2 miles. Screen and lumber sizes use inches, maps use kilometers or miles, and precision engineering uses millimeters. Being able to move between all of them avoids costly mistakes when specs are quoted in an unfamiliar unit.</p>
+
+    <h2>Precision and Rounding</h2>
+    <p>Because 1 inch is defined as exactly 2.54 cm, metric-to-imperial conversions are exact until you round the display. Chaining conversions by hand — inches to feet to meters — compounds rounding error at each step, so this tool always calculates from your original value through meters in one pass and rounds only the final figure. For fabrication or scientific work, keep the full-precision output rather than a truncated value.</p>
   </Fragment>
 </ToolLayout>

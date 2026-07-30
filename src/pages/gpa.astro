@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import GPACalc from '../components/tools/GPACalc';
 const faq = [
-  { q: "What GPA do I need for Deans List?", a: "Most schools require 3.5+ GPA. Some require 3.7 or above. Check your institutions specific requirements." },
-  { q: "Can I raise a low GPA?", a: "Yes, but it takes time. With many credits already earned, each new semester has less impact. Focus on your highest possible grades going forward." }
+  { q: "How is GPA calculated?", a: "Multiply each course's grade points by its credit hours, add those products, then divide by the total credits: GPA = Σ(grade points × credits) ÷ Σ credits. An A (4.0) in a 3-credit class and a B (3.0) in a 4-credit class give (4.0×3 + 3.0×4) ÷ 7 = 24 ÷ 7 = 3.43." },
+  { q: "What are the grade-point values for letter grades?", a: "On the standard 4.0 scale: A = 4.0, A- = 3.7, B+ = 3.3, B = 3.0, B- = 2.7, C+ = 2.3, C = 2.0, C- = 1.7, D = 1.0, and F = 0.0. Some schools also award A+ as 4.0." },
+  { q: "What is the difference between weighted and unweighted GPA?", a: "Unweighted GPA caps every course at 4.0. Weighted GPA adds a bonus for harder classes — typically +0.5 for Honors and +1.0 for AP or IB — so an A in an AP course can count as 5.0, letting a GPA exceed 4.0." },
+  { q: "How does a course's credit hours affect my GPA?", a: "Higher-credit courses pull the average harder because each grade is multiplied by its credits. An A in a 4-credit course raises your GPA more than an A in a 1-credit course, and a poor grade in a heavy course hurts more." },
+  { q: "What GPA do I need for the Dean's List?", a: "Most schools require a 3.5 or higher for a given term, though some set the bar at 3.7. Requirements vary, so confirm the exact threshold with your institution." }
 ];
 ---
 <ToolLayout title="GPA Calculator" description="Calculate your Grade Point Average from letter grades and credit hours." slug="gpa" faq={faq}>
   <GPACalc client:load slot="tool" />
   <Fragment slot="tutorial">
     <h2>How to Use the GPA Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Calculate your Grade Point Average from letter grades and credit hours. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <p>For each course, enter the letter grade you earned and the number of credit hours it carried, adding a row per class. The calculator converts each grade to its point value, weights it by credits, and returns your grade point average instantly. Add every course in a term for your semester GPA, or all courses across terms for a cumulative GPA.</p>
+
+    <h2>The GPA Formula</h2>
+    <p>GPA is a credit-weighted average, not a simple average of grades: <code>GPA = Σ(grade points × credits) ÷ Σ credits</code>. First each letter grade becomes a number on the 4.0 scale (A = 4.0, B = 3.0, C = 2.0, and so on). Then each is multiplied by its credit hours, the products are summed, and that total is divided by the total credit hours. This is why a 4-credit course influences your GPA more than a 1-credit one.</p>
+
+    <h2>Worked Example</h2>
+    <p>Suppose you take Biology (A, 4 credits), History (B+, 3 credits), and a seminar (A-, 2 credits). Convert: 4.0×4 = 16.0, 3.3×3 = 9.9, and 3.7×2 = 7.4. The grade points sum to 33.3 over 9 total credits, giving <code>33.3 ÷ 9 = 3.70</code>. Notice how the strong Biology grade, worth the most credits, anchors the result.</p>
+
+    <h2>Raising and Interpreting Your GPA</h2>
+    <p>The more credits already on your transcript, the more each new grade is diluted, so a low GPA takes several strong terms to lift — the calculator lets you model "what if" scenarios before you commit. As a rough guide, a 3.5+ often qualifies for honors, 3.0 is a common minimum for scholarships and graduate programs, and 2.0 is a typical graduation floor. Everything is computed in your browser, so your grades stay private.</p>
   </Fragment>
 </ToolLayout>

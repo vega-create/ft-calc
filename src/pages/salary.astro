@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import SalaryCalc from '../components/tools/SalaryCalc';
 const faq = [
-  { q: "How do I convert salary to hourly rate?", a: "Divide annual salary by total work hours per year. Standard full-time is 2,080 hours (40 hours/week x 52 weeks)." },
-  { q: "Should I account for paid time off?", a: "If you get PTO, your effective hourly rate is higher. Reduce the weeks/year to account for vacation time." }
+  { q: "How do I convert an annual salary to an hourly rate?", a: "Divide the annual salary by the total hours worked per year. Standard full-time work is 40 hours/week × 52 weeks = 2,080 hours, so a $60,000 salary is $60,000 ÷ 2,080 = $28.85 per hour." },
+  { q: "How do I convert an hourly rate to an annual salary?", a: "Multiply the hourly rate by hours worked per week, then by 52 weeks: annual = hourly × hours/week × 52. At $25/hour for 40 hours a week, that's 25 × 40 × 52 = $52,000 per year." },
+  { q: "Is the converted figure my take-home pay?", a: "No. These conversions are gross (pre-tax) amounts. Your take-home pay is lower after income tax, Social Security and Medicare, health insurance, and retirement contributions — often 20–30% less depending on your bracket and deductions." },
+  { q: "How does paid time off change my real hourly rate?", a: "If your salary is fixed and you get two weeks of paid vacation, you're paid for 52 weeks but work only 50, so your effective hourly rate is higher. Divide by actual hours worked (50 × 40 = 2,000) to see it: $60,000 ÷ 2,000 = $30.00/hour." },
+  { q: "How do I estimate monthly and biweekly pay?", a: "Divide the annual salary by 12 for monthly pay and by 26 for biweekly pay. A $52,000 salary is about $4,333 per month or $2,000 every two weeks, before deductions." }
 ];
 ---
 <ToolLayout title="Salary to Hourly Converter" description="Convert between annual salary and hourly rate with full breakdowns." slug="salary" faq={faq}>
   <SalaryCalc client:load slot="tool" />
   <Fragment slot="tutorial">
     <h2>How to Use the Salary to Hourly Converter</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Convert between annual salary and hourly rate with full breakdowns. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <p>Enter either an annual salary or an hourly rate, along with the hours you work per week, and the converter shows the equivalent figures across every pay period — hourly, weekly, biweekly, monthly, and yearly. Adjust the hours-per-week field if you work part-time or more than the standard 40 so the numbers reflect your actual schedule.</p>
+
+    <h2>The Conversion Formulas</h2>
+    <p>The two core formulas are mirror images. To go from salary to hourly: <code>hourly = annual ÷ (hours/week × 52)</code>. To go the other way: <code>annual = hourly × hours/week × 52</code>. The standard full-time benchmark is 2,080 hours a year (40 × 52). Weekly pay is <code>annual ÷ 52</code>, monthly is <code>annual ÷ 12</code>, and biweekly is <code>annual ÷ 26</code>.</p>
+
+    <h2>Gross Pay vs. Take-Home Pay</h2>
+    <p>Every figure this tool produces is gross — the amount before anything is withheld. Your net or take-home pay is what actually reaches your bank account after federal and state income tax, payroll taxes such as Social Security and Medicare, and voluntary deductions like health premiums and 401(k) contributions. Depending on your tax bracket and benefits, take-home is commonly 20–30% below gross, so plan a budget around net rather than the headline salary.</p>
+
+    <h2>When to Use Each Rate</h2>
+    <p>Converting between rates helps you compare a salaried job offer against contract or freelance work quoted by the hour, decide whether overtime is worth it, and check that a part-time role pays fairly on an annualized basis. Freelancers often need to work backwards — from a target annual income to the hourly rate they must charge, accounting for unpaid time off and self-employment tax. All calculations happen locally in your browser, so your pay details are never sent anywhere.</p>
   </Fragment>
 </ToolLayout>

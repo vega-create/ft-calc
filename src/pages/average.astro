@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import AverageCalc from '../components/tools/AverageCalc';
 const faq = [
-  { q: "How do I calculate the average?", a: "Add all numbers together and divide by the count. For example, the average of 10, 20, 30 is (10+20+30)/3 = 20." },
-  { q: "What is the difference between mean, median, and mode?", a: "Mean is the arithmetic average. Median is the middle value when numbers are sorted. Mode is the most frequently occurring value in the set." }
+  { q: "How do I calculate the average (mean)?", a: "Add all the numbers, then divide by how many there are: mean = sum ÷ count. For 10, 20, and 30 the mean is (10 + 20 + 30) ÷ 3 = 60 ÷ 3 = 20." },
+  { q: "What is the difference between mean, median, and mode?", a: "The mean is the arithmetic average. The median is the middle value once the numbers are sorted. The mode is the value that appears most often. For 2, 2, 3, 9: mean = 4, median = 2.5, mode = 2." },
+  { q: "When should I use the median instead of the mean?", a: "Use the median when the data has extreme values (outliers) that would distort the mean. For incomes of 30k, 35k, 40k, and 900k, the mean is 251k — misleading — while the median of 37.5k better reflects a typical value." },
+  { q: "How do I find the median of an even count of numbers?", a: "Sort the numbers and average the two middle ones. For 4, 8, 15, 16, the two middle values are 8 and 15, so the median is (8 + 15) ÷ 2 = 11.5." },
+  { q: "Can a data set have more than one mode?", a: "Yes. A set with two values tied for most frequent is bimodal, and one with several is multimodal. If every value is unique, the set has no mode." }
 ];
 ---
 <ToolLayout title="Average Calculator" description="Calculate the mean, median, and mode of any set of numbers instantly." slug="average" faq={faq}>
   <AverageCalc client:load slot="tool" />
   <Fragment slot="tutorial">
     <h2>How to Use the Average Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Calculate the mean, median, and mode of any set of numbers instantly. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <p>Type or paste your numbers separated by commas, spaces, or new lines, and the calculator returns the mean, median, and mode at once, along with the count and sum. It handles decimals and negative numbers, so you can drop in test scores, sensor readings, prices, or survey responses without cleaning them up first.</p>
+
+    <h2>The Three Measures of Central Tendency</h2>
+    <p>"Average" usually means the arithmetic mean — <code>mean = Σx ÷ n</code>, the sum of all values divided by the count. The median is the middle value after sorting (or the average of the two middle values for an even count), and the mode is the most frequently occurring value. Together these three describe the "center" of a data set from different angles.</p>
+
+    <h2>Choosing the Right Average</h2>
+    <p>The mean is best for symmetric data with no extreme values — it uses every number. But a single outlier can drag it far from typical: one billionaire in a room of teachers inflates the mean salary while the median barely moves. That is why house prices and household incomes are usually reported as medians. The mode is most useful for categorical or repeated data, such as the most common shoe size sold.</p>
+
+    <h2>Where Averages Are Used</h2>
+    <p>Averages turn a pile of numbers into a single figure you can act on. Students average grades to track a GPA, businesses average daily sales to spot trends, scientists average repeated measurements to reduce noise, and analysts compare a value against the mean to judge whether it is high or low. Reading all three measures side by side reveals the shape of your data — whether it is balanced, skewed, or clustered. All calculations run entirely in your browser.</p>
   </Fragment>
 </ToolLayout>

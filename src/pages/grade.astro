@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import GradeCalc from '../components/tools/GradeCalc';
 const faq = [
-  { q: "What if I need more than 100%?", a: "If the result exceeds 100%, your desired grade may not be achievable with the final exam alone. Consider speaking with your professor about extra credit." },
-  { q: "How much does the final usually count?", a: "Final exams typically account for 20-40% of the total grade. Check your syllabus for the exact weight." }
+  { q: "What score do I need on the final to get the grade I want?", a: "The formula is: Required final = (Goal − Current × (1 − FinalWeight)) ÷ FinalWeight. If you have 85% going in, the final is worth 30%, and you want 90% overall, you need (90 − 85 × 0.70) ÷ 0.30 = 103.3% — meaning an A is out of reach through the final alone." },
+  { q: "What if the required score is above 100%?", a: "A result over 100% means your target grade cannot be reached with the final exam by itself. Look into extra credit, ask whether the lowest score can be dropped, or reset your goal to a grade that is still attainable." },
+  { q: "What if the required score is negative or very low?", a: "A result of zero or below means you have already secured your target grade no matter how you do on the final. You can confirm your standing is locked in, though most students still aim to do their best." },
+  { q: "How much does a final exam usually count?", a: "Finals commonly carry 20-40% of the course grade, though it varies widely by instructor. Always use the exact weight from your syllabus, because a 25% versus a 40% final changes the required score significantly." },
+  { q: "What is the difference between weighted and points-based grading?", a: "In weighted grading, categories (homework, exams, final) each contribute a fixed percentage regardless of point totals. In points-based grading, your grade is total points earned ÷ total points possible. This tool uses the weighted model, which is the more common setup for a final-exam target." }
 ];
 ---
 <ToolLayout title="Grade Calculator" description="Find what score you need on your final exam to get your desired grade." slug="grade" faq={faq}>
   <GradeCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Grade Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Find what score you need on your final exam to get your desired grade. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>The Formula Behind the Calculator</h2>
+    <p>To find the score you need on a final exam, the tool rearranges the weighted-average formula to solve for the unknown. The result is <code>Required = (Goal − Current × (1 − W)) ÷ W</code>, where <code>Goal</code> is your target course grade, <code>Current</code> is your grade before the final, and <code>W</code> is the final's weight as a decimal. It isolates exactly the score that makes your weighted total hit your goal.</p>
+
+    <h2>A Worked Example</h2>
+    <p>Suppose you currently have an 88% and the final is worth 25% of your grade, and you want to finish with a 90%. Plugging in: <code>(90 − 88 × 0.75) ÷ 0.25 = (90 − 66) ÷ 0.25 = 96%</code>. So you need a 96% on the final to reach a 90% overall. Change any input — a heavier final or a lower current grade — and the required score moves accordingly, letting you test scenarios quickly.</p>
+
+    <h2>Reading Impossible or Guaranteed Results</h2>
+    <p>Two edge cases are especially useful. If the required score comes out above 100%, your goal is unreachable through the final alone, and you should pursue extra credit or adjust your target. If it comes out at or below 0%, you have already locked in your desired grade regardless of the final. Both outcomes turn a vague worry into a clear, actionable number.</p>
+
+    <h2>Getting Accurate Inputs</h2>
+    <p>The calculator is only as accurate as your numbers, so pull the final's weight straight from the syllabus and make sure your "current grade" already reflects every graded item so far. If your course uses a points-based system instead of weighted categories, convert your standing to a percentage first. Knowing the exact score you need lets you prioritize study time and set realistic expectations before you walk into the exam.</p>
   </Fragment>
 </ToolLayout>

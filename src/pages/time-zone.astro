@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import TimeZoneCalc from '../components/tools/TimeZoneCalc';
 const faq = [
-  { q: "Do time zones change for daylight saving?", a: "Yes, many zones shift by one hour during DST. The converter uses your browsers timezone data which accounts for current DST rules." },
-  { q: "How many time zones exist?", a: "There are 24 standard zones, but with half-hour and quarter-hour offsets, there are over 30 distinct time zones worldwide." }
+  { q: "How do I convert time between two zones?", a: "Find the UTC offset of each zone and take the difference. New York is UTC-5 (EST) and London is UTC+0 (GMT), a 5-hour gap. So 9:00 AM in New York is 2:00 PM in London: 9 + 5 = 14:00." },
+  { q: "Do time zones change for daylight saving?", a: "Yes. Many zones shift forward one hour in spring and back in autumn. During US DST, New York becomes UTC-4 (EDT) instead of UTC-5, so the offset to London (which uses BST, UTC+1) stays at 5 hours only part of the year. The converter uses your browser's live timezone data, which applies the correct DST rule for the chosen date." },
+  { q: "How many time zones are there?", a: "There are 24 one-hour zones in theory, but real-world offsets include 30-minute zones (India, UTC+5:30) and 45-minute zones (Nepal, UTC+5:45), producing over 38 distinct offsets ranging from UTC-12 to UTC+14." },
+  { q: "What is the difference between UTC and GMT?", a: "GMT (Greenwich Mean Time) is a time zone, while UTC (Coordinated Universal Time) is a time standard based on atomic clocks. They share the same clock reading (UTC+0), but UTC is the modern technical reference used to define all other offsets." },
+  { q: "Why is there a date change when converting some zones?", a: "When the offset pushes a time past midnight, the calendar day rolls over. 10:00 PM Monday in Los Angeles (UTC-8) is 3:00 PM Tuesday in Tokyo (UTC+9), a 17-hour jump that crosses into the next day." }
 ];
 ---
 <ToolLayout title="Time Zone Converter" description="Convert time between 14 major world time zones instantly." slug="time-zone" faq={faq}>
   <TimeZoneCalc client:load slot="tool" />
   <Fragment slot="tutorial">
     <h2>How to Use the Time Zone Converter</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Convert time between 14 major world time zones instantly. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <p>Pick a source time zone and enter a time, then choose the destination zone. The converter reads your browser's built-in IANA time zone database to look up each zone's current UTC offset — including any daylight saving adjustment in effect on that date — and calculates the equivalent local time. The result updates instantly, and if the conversion crosses midnight the destination date shifts accordingly.</p>
+
+    <h2>How Time Zone Conversion Works</h2>
+    <p>Every zone is defined by its offset from Coordinated Universal Time (UTC). To convert, express both times relative to UTC: <code>target = source_time − source_offset + target_offset</code>. For example, converting 3:00 PM in Chicago (UTC-6) to Berlin (UTC+1): 15:00 + 6 = 21:00 UTC, then 21:00 + 1 = 22:00, so 10:00 PM in Berlin. The tool handles the arithmetic and the 24-hour wraparound for you.</p>
+
+    <h2>Daylight Saving Time and Half-Hour Offsets</h2>
+    <p>Offsets are not fixed year-round. Regions observing daylight saving move their clocks forward one hour in summer, so New York alternates between UTC-5 (winter) and UTC-4 (summer). Not every offset is a whole hour either: India runs at UTC+5:30, Newfoundland at UTC-3:30, and Nepal at UTC+5:45. Because the converter uses live zone data rather than a static table, it applies the correct rule automatically for the date you enter.</p>
+
+    <h2>When to Use a Time Zone Converter</h2>
+    <p>Time zone math is easy to get wrong under pressure, and the cost is a missed meeting or a call placed at 3 AM. Use this converter to schedule video calls with remote teammates, plan flight arrivals and layovers, coordinate live-stream or webinar start times for a global audience, and set reminders for market opens or sports events happening abroad. Because everything runs in your browser, no schedule data is ever sent to a server.</p>
   </Fragment>
 </ToolLayout>

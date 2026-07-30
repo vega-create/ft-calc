@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import TemperatureCalc from '../components/tools/TemperatureCalc';
 const faq = [
-  { q: "What is the formula for C to F?", a: "Fahrenheit = (Celsius x 9/5) + 32. For a quick estimate, double the Celsius value and add 30." },
-  { q: "What is absolute zero?", a: "Absolute zero is 0 Kelvin (-273.15 C or -459.67 F), the theoretical lowest temperature where all molecular motion stops." }
+  { q: "What is the formula to convert Celsius to Fahrenheit?", a: "Fahrenheit = (Celsius × 9/5) + 32. For example, 20 °C = (20 × 1.8) + 32 = 68 °F. For a rough head estimate, double the Celsius value and add 30 (20 → 70), which is close but not exact." },
+  { q: "How do I convert Fahrenheit back to Celsius?", a: "Celsius = (Fahrenheit − 32) × 5/9. So 98.6 °F = (98.6 − 32) × 5/9 = 37 °C, normal human body temperature. Subtract 32 first, then multiply by 5/9 — reversing the order gives the wrong answer." },
+  { q: "At what temperature do Celsius and Fahrenheit read the same?", a: "At −40°, the two scales meet: −40 °C equals −40 °F. This is the only point where the numbers are identical, which makes it a handy checkpoint when verifying a conversion." },
+  { q: "How is Kelvin related to Celsius?", a: "Kelvin uses the same degree size as Celsius but starts at absolute zero, so K = C + 273.15. Water freezes at 273.15 K (0 °C) and boils at 373.15 K (100 °C). Kelvin has no negative values and is written without a degree symbol." },
+  { q: "What is absolute zero?", a: "Absolute zero is 0 Kelvin, equal to −273.15 °C or −459.67 °F. It is the theoretical point at which molecular motion reaches its minimum, and no temperature can go below it." }
 ];
 ---
 <ToolLayout title="Temperature Converter" description="Convert between Celsius, Fahrenheit, and Kelvin instantly." slug="temperature" faq={faq}>
   <TemperatureCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Temperature Converter</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Convert between Celsius, Fahrenheit, and Kelvin instantly. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>The Three Temperature Scales</h2>
+    <p>Celsius sets 0° at the freezing point of water and 100° at its boiling point, so its range is divided into 100 equal degrees. Fahrenheit places freezing at 32° and boiling at 212°, a 180-degree span, which makes each Fahrenheit degree smaller than a Celsius degree. Kelvin is the SI scientific scale: it uses Celsius-sized degrees but anchors 0 at absolute zero, the coldest temperature physically possible.</p>
+
+    <h2>The Conversion Formulas</h2>
+    <p>Because the scales have different zero points and different degree sizes, converting requires both a scale factor and an offset. Celsius to Fahrenheit is <code>F = C × 9/5 + 32</code>; the reverse is <code>C = (F − 32) × 5/9</code>. Kelvin is simpler because it shares the Celsius degree size: <code>K = C + 273.15</code> and <code>C = K − 273.15</code>. To go straight from Fahrenheit to Kelvin, convert to Celsius first, then add 273.15.</p>
+
+    <h2>Everyday Reference Points</h2>
+    <p>A few anchors make conversions intuitive: water freezes at 0 °C / 32 °F, a comfortable room is around 21 °C / 70 °F, normal body temperature is 37 °C / 98.6 °F, and water boils at 100 °C / 212 °F. A hot summer day of 35 °C is 95 °F, while a cold −10 °C is 14 °F. Knowing these landmarks lets you sanity-check any converted value at a glance.</p>
+
+    <h2>When Precision Matters</h2>
+    <p>The +32 offset in the Fahrenheit formula is why doubling-and-adding-30 shortcuts drift as temperatures climb — fine for weather, risky for cooking or lab work. Baking, brewing, and medical readings depend on exact conversion: a 5° error near a candy-making threshold or a fever line can change the outcome. This tool applies the full formulas with decimals, so 37.5 °C correctly becomes 99.5 °F rather than a rounded estimate.</p>
   </Fragment>
 </ToolLayout>

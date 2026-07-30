@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import UnitPriceCalc from '../components/tools/UnitPriceCalc';
 const faq = [
-  { q: "Is the cheapest unit price always the best deal?", a: "Not necessarily. Consider whether you can use all of a larger quantity before it expires, and whether storage space is available." },
-  { q: "How do stores calculate unit prices?", a: "Stores divide the total price by the quantity. For example, a 32oz bottle for $3.99 has a unit price of $0.125/oz." }
+  { q: "How is unit price calculated?", a: "Divide the total price by the quantity: unit price = price ÷ quantity. A 32 oz bottle of juice at $3.99 works out to $3.99 ÷ 32 = $0.125 per ounce." },
+  { q: "How do I compare two package sizes with different units?", a: "Convert both to the same unit first. A 500 g bag at $4.00 is $0.008/g; a 2 lb bag (907 g) at $6.50 is $0.00717/g. The larger bag is cheaper per gram, so compare in a shared unit before deciding." },
+  { q: "Is the lowest unit price always the best deal?", a: "Not always. A bulk size wins on price per unit only if you can use it before it spoils. For perishables, factor in waste: a family-size item that expires half-used can cost more per usable unit than a smaller pack you finish." },
+  { q: "How do I handle multi-pack items?", a: "Multiply to get the true quantity. A 6-pack of 12 oz cans is 72 oz total, so a $5.99 6-pack is $5.99 ÷ 72 = $0.083 per ounce — then compare that against a single large bottle." },
+  { q: "Does a lower unit price always mean lower total cost?", a: "No. Unit price tells you value per ounce or gram, not what leaves your wallet today. Buying the cheaper-per-unit bulk pack still costs more up front, which matters on a tight budget." }
 ];
 ---
 <ToolLayout title="Unit Price Calculator" description="Compare prices per unit to find the best deal while shopping." slug="unit-price" faq={faq}>
   <UnitPriceCalc client:load slot="tool" />
   <Fragment slot="tutorial">
     <h2>How to Use the Unit Price Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Compare prices per unit to find the best deal while shopping. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <p>Enter the price and quantity of the first product, then the second, and the calculator shows the price per unit for each and flags the better value. Use consistent units — ounces against ounces, grams against grams — so the comparison is fair. The tool is built for the moment you are standing in the aisle deciding between two sizes of the same item.</p>
+
+    <h2>The Unit Price Formula</h2>
+    <p>Unit price is simply <code>unit price = total price ÷ quantity</code>. The result answers "how much does one ounce, gram, litre, or item cost?" and reduces every package to a single comparable number. For example, a 24 oz jar at $5.49 is <code>5.49 ÷ 24 = $0.229/oz</code>, while a 16 oz jar at $3.89 is <code>3.89 ÷ 16 = $0.243/oz</code> — so the bigger jar saves about 1.4 cents per ounce.</p>
+
+    <h2>Why Bigger Is Not Always Cheaper</h2>
+    <p>Retailers count on shoppers assuming the largest package is the best value, but "bulk penalties" are common — sometimes the mid-size or a promotional smaller pack has the lowest unit price. Loyalty pricing, coupons, and multi-buy offers can flip the ranking too. Running the numbers takes seconds and routinely reveals that the family size costs more per ounce than the standard one.</p>
+
+    <h2>Beyond Price: What Else to Weigh</h2>
+    <p>The cheapest unit price only pays off if you actually use the product. For perishables, a large size that spoils before you finish it raises your real cost per used unit. Consider shelf life, storage space, and how quickly you go through the item. Unit price is the starting point for a smart decision, not the whole story — all calculations run locally in your browser, so nothing you enter is sent anywhere.</p>
   </Fragment>
 </ToolLayout>

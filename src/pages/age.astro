@@ -5,6 +5,8 @@ const faq = [
   { q: "How is age calculated exactly?", a: "Age is calculated by finding the difference between the birth date and the target date, accounting for varying month lengths and leap years. The result shows exact years, months, and days." },
   { q: "Can I calculate age on a future date?", a: "Yes. Change the 'Calculate Age On' field to any future date to see how old you'll be on that specific day." },
   { q: "How many days have I been alive?", a: "The calculator shows your total days lived. Multiply that by 24 for hours, or by 1,440 for minutes." },
+  { q: "How are leap years handled?", a: "The calculator counts real calendar days, so it automatically includes the extra February 29 in every leap year (years divisible by 4, except century years not divisible by 400). This keeps the years-months-days breakdown exact rather than assuming a fixed 365-day year." },
+  { q: "What happens if someone was born on February 29?", a: "A leap-day birthday only has an exact calendar match every four years. In common years the calculator treats the milestone as falling on the date the extra day would have been, so age still advances once per year." },
 ];
 ---
 <ToolLayout title="Age Calculator" description="Calculate your exact age in years, months, and days. Also shows total days lived and countdown to next birthday." slug="age" faq={faq}>
@@ -14,6 +16,9 @@ const faq = [
     <p>Enter your date of birth and optionally change the target date. The calculator shows your precise age in years, months, and days, along with total days lived and a countdown to your next birthday.</p>
     <h2>What This Calculator Shows</h2>
     <p>Beyond the standard years-months-days breakdown, this tool displays the total number of days you've been alive and how many days remain until your next birthday. It accounts for leap years and varying month lengths to give you precise results.</p>
+    <h2>How the Age Calculation Works</h2>
+    <p>The tool subtracts your birth date from the target date working down through years, months, and days. It first counts whole years, then whole months since your last birthday, then the leftover days — borrowing from the previous month when the day-of-month is smaller, just as you would in long subtraction. Because it operates on the real calendar, it accounts for months of 28 to 31 days and for leap years, so the result is exact rather than an approximation based on 365.25 days per year.</p>
+
     <h2>Fun Age Facts</h2>
     <p>On your 10,000th day alive, you're about 27 years and 5 months old. Your 1 billionth second of life occurs at roughly age 31 years and 8 months. These milestones make fun alternative celebrations beyond traditional birthdays.</p>
   </Fragment>

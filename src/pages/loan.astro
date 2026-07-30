@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import LoanCalc from '../components/tools/LoanCalc';
 const faq = [
-  { q: "How is the monthly payment calculated?", a: "Using the standard amortization formula that accounts for principal, interest rate, and loan term to determine equal monthly payments." },
-  { q: "Should I choose a shorter or longer loan term?", a: "Shorter terms have higher monthly payments but save significantly on total interest. A 15-year mortgage can save tens of thousands compared to 30 years." }
+  { q: "How is the monthly payment calculated?", a: "It uses the standard amortization formula M = P × r(1+r)ⁿ / ((1+r)ⁿ − 1), where P is the loan amount, r is the monthly interest rate (annual rate ÷ 12), and n is the total number of monthly payments. This produces one fixed payment that fully pays off the loan by the end of the term." },
+  { q: "How much total interest will I pay?", a: "Total interest equals the monthly payment × number of payments − the original principal. For example, a $20,000 loan at 6% over 5 years has a payment near $387, so you pay about $23,200 total — roughly $3,200 in interest. Longer terms lower the monthly payment but raise this total." },
+  { q: "What is the difference between APR and the interest rate?", a: "The interest rate is the cost of borrowing the principal. APR (Annual Percentage Rate) also folds in fees such as origination charges, so it is usually a little higher and is the better number for comparing offers. This calculator uses the stated interest rate; add fees separately for a full picture." },
+  { q: "Should I choose a shorter or longer loan term?", a: "A shorter term means higher monthly payments but far less total interest. A $300,000 mortgage at 6% costs about $1,799/month over 30 years (≈$347,000 interest) versus about $2,532/month over 15 years (≈$156,000 interest) — less than half the interest for a higher monthly commitment." },
+  { q: "How does making extra payments help?", a: "Extra payments go straight to principal, shrinking the balance that future interest is charged on. Even a modest additional amount each month can cut years off the term and save thousands, because interest is recalculated on the smaller remaining balance every period." }
 ];
 ---
 <ToolLayout title="Loan Calculator" description="Calculate monthly payments, total interest, and total cost for any loan." slug="loan" faq={faq}>
   <LoanCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Loan Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Calculate monthly payments, total interest, and total cost for any loan. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>The Loan Payment Formula</h2>
+    <p>Fixed-rate loans are priced with the amortization formula <code>M = P × r(1+r)ⁿ / ((1+r)ⁿ − 1)</code>. Here <code>P</code> is the principal, <code>r</code> is the monthly rate (annual rate divided by 12), and <code>n</code> is the number of monthly payments (years × 12). For a $25,000 loan at 5% annual interest over 4 years, r = 0.004167 and n = 48, giving a monthly payment of about $575.73.</p>
+
+    <h2>How Amortization Works</h2>
+    <p>Every payment is split between interest and principal, but the mix shifts over time. Early on, most of the payment covers interest on a large balance; as the balance falls, more of each fixed payment goes to principal. This is why paying a little extra in the first years has an outsized effect — you are attacking the balance while interest charges are at their highest.</p>
+
+    <h2>Interest Rate and Term Trade-offs</h2>
+    <p>Two levers control the cost of a loan: the interest rate and the term. A lower rate reduces both the payment and the total interest. A longer term reduces the monthly payment but increases total interest, because you carry the balance longer. Comparing scenarios side by side — say 15 versus 30 years, or 6% versus 7% — reveals how much a small rate change or a shorter term is really worth over the life of the loan.</p>
+
+    <h2>Using the Results to Plan</h2>
+    <p>Beyond the monthly payment, watch the total cost and total interest figures, since they show what borrowing actually costs you. Use them to check affordability (lenders often prefer housing costs under about 28% of gross income), to weigh refinancing when rates drop, and to test the impact of a larger down payment or extra principal payments. Property taxes, insurance, and lender fees are not part of the base payment formula, so budget for those separately.</p>
   </Fragment>
 </ToolLayout>

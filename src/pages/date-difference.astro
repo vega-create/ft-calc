@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import DateDiffCalc from '../components/tools/DateDiffCalc';
 const faq = [
-  { q: "Does this account for leap years?", a: "Yes, the calculation uses actual calendar dates and automatically accounts for leap years and varying month lengths." },
-  { q: "How many days are in a year?", a: "A common year has 365 days. A leap year has 366. The average year is 365.25 days, which is why we have leap years." }
+  { q: "Does the calculator include both the start and end date?", a: "By default it counts the gap between the two dates, so January 1 to January 2 is 1 day. If you need to count both endpoints (for example billing for every day a room is occupied), add 1 to the result — this is the difference between 'exclusive' and 'inclusive' day counting." },
+  { q: "Does it account for leap years?", a: "Yes. The tool works from actual calendar dates, so it automatically includes February 29 in leap years and handles the different lengths of each month. A span crossing February 2024 counts one extra day compared with the same span in 2023." },
+  { q: "How is the difference in months and years calculated?", a: "Months and years are counted by calendar, not by a fixed number of days. From March 15 to May 15 is exactly 2 months regardless of whether those months have 30 or 31 days. Any leftover days beyond whole months are shown separately." },
+  { q: "How many weeks are between two dates?", a: "Divide the total day count by 7. For example, 100 days is 14 weeks and 2 days (14 × 7 = 98, remainder 2). The tool shows both the whole weeks and the remaining days." },
+  { q: "Can I calculate a future date or someone's exact age?", a: "Yes. Set today as the start date and a future date as the end to count down to a deadline or event, or enter a birth date as the start to get an exact age in years, months, and days." }
 ];
 ---
 <ToolLayout title="Date Difference Calculator" description="Find the exact number of days, weeks, and months between two dates." slug="date-difference" faq={faq}>
   <DateDiffCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Date Difference Calculator</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Find the exact number of days, weeks, and months between two dates. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>How the Calculation Works</h2>
+    <p>The tool converts each date into a serial day number — the count of days since a fixed reference point — and subtracts one from the other. Working with serial numbers means the result is always exact, because the calendar's irregularities (28-to-31-day months, leap years) are already baked into each date's position. The raw day difference is then broken down into weeks, months, and years for readability.</p>
+
+    <h2>Days, Weeks, Months, and Years</h2>
+    <p>Days and weeks are pure arithmetic: <code>weeks = days ÷ 7</code>. Months and years, however, are calendar quantities, not fixed durations — a "month" can be 28 to 31 days. The calculator therefore counts whole calendar months between the dates and reports any remaining days on top, so June 1 to August 20 reads as 2 months and 19 days rather than a rounded decimal.</p>
+
+    <h2>Why Leap Years Matter</h2>
+    <p>A common year has 365 days and a leap year 366; the average is 365.25 days, which is why we add February 29 roughly every four years (skipping century years not divisible by 400, such as 1900). Because the tool anchors on real dates, any span crossing a February 29 automatically gains that extra day — important for interest, payroll, and contract calculations where a single day changes the total.</p>
+
+    <h2>Practical Uses</h2>
+    <p>Use the calculator to find how many days until a project deadline, wedding, or product launch; to compute someone's precise age for forms or eligibility; to measure tenure, subscription length, or notice periods; or to count the nights of a hotel stay or rental. For billing that charges per calendar day inclusive of both ends, remember to add one day to the exclusive difference the tool returns.</p>
   </Fragment>
 </ToolLayout>

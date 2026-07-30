@@ -2,16 +2,26 @@
 import ToolLayout from '../layouts/ToolLayout.astro';
 import WeightCalc from '../components/tools/WeightCalc';
 const faq = [
-  { q: "How many pounds in a kilogram?", a: "One kilogram equals approximately 2.205 pounds. To convert kg to lbs, multiply by 2.205." },
-  { q: "What is a stone?", a: "A stone equals 14 pounds (6.35 kg), commonly used in the UK and Ireland for measuring body weight." }
+  { q: "How many pounds are in a kilogram?", a: "One kilogram equals exactly 2.20462 pounds. To convert kg to lb, multiply by 2.20462; to go the other way, multiply pounds by 0.453592. So 70 kg = 154.3 lb, and 150 lb = 68.04 kg." },
+  { q: "How many ounces are in a pound?", a: "There are 16 ounces (oz) in one pound (lb), and 16 ounces equals 453.6 grams. One ounce is 28.35 grams. Note that this is the avoirdupois ounce used for everyday weight, not the troy ounce (31.10 g) used for precious metals." },
+  { q: "What is a stone and where is it used?", a: "A stone equals 14 pounds, or about 6.35 kg. It is still commonly used in the UK and Ireland to state body weight — for example, a person weighing 70 kg is about 11 stone." },
+  { q: "How many grams are in a metric ton?", a: "A metric ton (tonne) is 1,000 kilograms, or 1,000,000 grams. It is different from the US short ton (2,000 lb ≈ 907 kg) and the UK long ton (2,240 lb ≈ 1,016 kg), so always confirm which 'ton' a figure refers to." },
+  { q: "What is the difference between mass and weight?", a: "Strictly, mass (measured in grams or kilograms) is the amount of matter, while weight is the force gravity exerts on that mass. In everyday use the terms are interchangeable because gravity is nearly constant on Earth, which is why kg and lb are used for both." }
 ];
 ---
 <ToolLayout title="Weight Converter" description="Convert between mg, g, kg, oz, lb, stone, and metric tons." slug="weight" faq={faq}>
   <WeightCalc client:load slot="tool" />
   <Fragment slot="tutorial">
-    <h2>How to Use the Weight Converter</h2>
-    <p>Enter your values in the fields above and click Calculate. Results appear instantly below the tool. Use the Clear button to reset all fields and start over.</p>
-    <h2>About This Tool</h2>
-    <p>Convert between mg, g, kg, oz, lb, stone, and metric tons. All calculations happen in your browser — your data is never sent to any server. Bookmark this page for quick access anytime you need it.</p>
+    <h2>How the Weight Converter Works</h2>
+    <p>Every unit is converted through a single base unit — the gram. The tool first converts your input to grams using a fixed factor, then divides by the factor for your target unit. For example, converting 5 pounds to kilograms goes <code>5 lb × 453.592 = 2267.96 g</code>, then <code>2267.96 ÷ 1000 = 2.268 kg</code>. Routing everything through one base unit keeps every conversion consistent and reversible.</p>
+
+    <h2>Metric vs Imperial Units</h2>
+    <p>The metric system (mg, g, kg, tonne) scales in powers of ten, so 1 kg = 1,000 g = 1,000,000 mg. The imperial and US customary system (oz, lb, stone, ton) uses fixed but irregular ratios: <code>1 lb = 16 oz</code>, <code>1 stone = 14 lb</code>, <code>1 short ton = 2,000 lb</code>. Because the ratios differ, mixing systems by hand is error-prone — the exact anchor <code>1 inch = 2.54 cm</code> has a weight analogue in <code>1 lb = 453.59237 g</code>, which this tool uses for precision.</p>
+
+    <h2>Common Real-World Conversions</h2>
+    <p>Cooking recipes often list 1 oz (28.35 g) or 1 lb (454 g) of an ingredient. Shipping and postage bounce between grams and ounces. Bodyweight is quoted in kg in most of the world, in stone-and-pounds in the UK, and in pounds in the US: 80 kg is about 176 lb or 12 st 8 lb. Gym plates are sold in both 20 kg and 45 lb versions, which are close but not identical (45 lb = 20.4 kg).</p>
+
+    <h2>Avoiding Rounding Errors</h2>
+    <p>When you chain conversions — say grams to ounces to pounds — rounding at each step compounds the error. This converter always calculates from the original value through grams in one pass, then rounds only the final displayed result. For scientific or trade work where every digit matters, keep the full-precision output rather than the rounded figure, since 1 kg is 2.20462 lb, not simply 2.2 lb.</p>
   </Fragment>
 </ToolLayout>

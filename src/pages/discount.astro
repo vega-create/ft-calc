@@ -4,7 +4,9 @@ import DiscountCalc from '../components/tools/DiscountCalc';
 const faq = [
   { q: "How do I calculate a discount?", a: "Multiply the original price by the discount percentage divided by 100, then subtract from the original price. For example: $80 with 25% off = $80 - ($80 × 0.25) = $60." },
   { q: "How do I calculate the original price from a sale price?", a: "Divide the sale price by (1 minus the discount rate). For example, if something costs $60 after a 25% discount: $60 ÷ 0.75 = $80 original price." },
-  { q: "Can I stack multiple discounts?", a: "When stacking discounts, apply each one sequentially to the already-reduced price. Two 20% discounts don't equal 40% off—they equal 36% off (100 × 0.8 × 0.8 = 64, so 36% off)." },
+  { q: "Can I stack multiple discounts?", a: "When stacking discounts, apply each one sequentially to the already-reduced price. Two 20% discounts don't equal 40% off — they equal 36% off (100 × 0.8 × 0.8 = 64, so 36% off)." },
+  { q: "How do I add sales tax after a discount?", a: "Apply the discount first, then multiply by (1 + tax rate). A $80 item at 25% off is $60; with 8% sales tax that's 60 × 1.08 = $64.80. Discounts are pre-tax, so tax is charged on the reduced price." },
+  { q: "What does a 'buy one get one 50% off' deal actually save?", a: "You pay full price for one item and half for the second, so across two items you save 25% overall, not 50%. Two $40 shirts cost $40 + $20 = $60 instead of $80 — a 25% effective discount." },
 ];
 ---
 <ToolLayout title="Discount Calculator" description="Find the sale price after applying a discount. Quick preset buttons for common discount percentages." slug="discount" faq={faq}>
@@ -12,7 +14,13 @@ const faq = [
   <Fragment slot="tutorial">
     <h2>How to Use the Discount Calculator</h2>
     <p>Enter the original price and discount percentage, then click Calculate. Use the quick preset buttons for common discount amounts like 10%, 20%, or 50% off. The result shows both how much you save and the final price you'll pay.</p>
+    <h2>The Discount Formula</h2>
+    <p>The sale price is the original multiplied by what remains after the cut: <code>sale price = original × (1 − discount% ÷ 100)</code>. A $120 jacket at 30% off is <code>120 × (1 − 0.30) = 120 × 0.70 = $84</code>, and the amount saved is <code>120 × 0.30 = $36</code>. To reverse it and recover the original from a known sale price, divide instead: <code>original = sale price ÷ (1 − discount% ÷ 100)</code>, so $84 ÷ 0.70 = $120.</p>
+
+    <h2>Stacked Discounts and Sales Tax</h2>
+    <p>Multiple discounts are multiplicative, not additive. Applying a 20% coupon on top of a 30% sale gives <code>0.80 × 0.70 = 0.56</code>, meaning you pay 56% of the original — a 44% total discount, not 50%. Sales tax, by contrast, is applied after all discounts, so the order is: reduce the price, then add tax. Knowing this prevents the common mistake of adding discount percentages together and overestimating your savings.</p>
+
     <h2>Shopping Tips</h2>
-    <p>When comparing deals, always calculate the final price rather than just looking at the discount percentage. A 30% discount on a $100 item ($70 final) might be a worse deal than a 20% discount on an $80 item ($64 final) for the same product. This calculator makes these comparisons instant.</p>
+    <p>When comparing deals, always calculate the final price rather than just looking at the discount percentage. A 30% discount on a $100 item ($70 final) might be a worse deal than a 20% discount on an $80 item ($64 final) for the same product. Watch for "up to X% off" wording, which applies only to select items, and check whether a percentage or a fixed-dollar coupon saves more on your particular basket. This calculator makes these comparisons instant.</p>
   </Fragment>
 </ToolLayout>
